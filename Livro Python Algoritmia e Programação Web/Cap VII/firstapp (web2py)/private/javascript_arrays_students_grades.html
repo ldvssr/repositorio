@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>Universidade Atlântica</h1>
+    <h2>Unidades Curriculares</h2>
+    <h3>Tecnologias e Programação Web</h3>
+    <script>
+        alunos = new Array(); // define array alunos[]
+        notas = new Array(); // define array notas[]
+        i = 0;
+        function add_student()
+        {
+            alunos[i] = nomea.value;
+            notas[i] = notaa.value;
+            i++;
+            nomea.value = "";
+            notaa.value = "";
+        }
+        function print_students1()
+        {
+            max = 0;
+            min = 20;
+            total = 0;
+            for (i = 0; i < alunos.length; i++) 
+            {
+                document.write("Nome: " + alunos[i] + "<br>");
+                document.write("Nota: " + notas[i] + "<br>");
+                document.write("<p>");
+                total = Number(total) + Number(notas[i]);
+                if (Number(notas[i]) > max) max = notas[i];
+                if (Number(notas[i]) < min) min = notas[i];
+            }
+            document.write("<b>Total de alunos: " + alunos.length + "</b><br>");
+            document.write("<b>Nota superior: " + max + "</b><br>");
+            document.write("<b>Nota inferior: " + min + "</b><br>");
+            document.write("<b>Média das notas: " + (total / notas.length).toFixed(2) + "</b><br>");
+        }
+
+    </script>
+    <br /><br />
+    Nome do aluno: <input id='nomea' type='text' size="15" />
+    Nota final: <input id='notaa' type='text' size="25" /><br/>
+    <br /><br />
+    <input type="button" onclick="add_student()" value="Add Student" />
+    <br /><br />
+    <input type="button" onclick="print_students1()" value="Print Students" />
+</body>
+</html>
