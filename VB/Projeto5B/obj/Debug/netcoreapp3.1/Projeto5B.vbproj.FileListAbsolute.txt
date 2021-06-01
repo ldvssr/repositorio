@@ -1,0 +1,15 @@
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5B\Projeto5B\obj\Debug\netcoreapp3.1\Projeto5B.vbprojAssemblyReference.cache
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5B\Projeto5B\obj\Debug\netcoreapp3.1\Projeto5B.Form1.resources
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5B\Projeto5B\obj\Debug\netcoreapp3.1\Projeto5B.vbproj.GenerateResource.cache
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5B\Projeto5B\obj\Debug\netcoreapp3.1\Projeto5B.AssemblyInfoInputs.cache
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5B\Projeto5B\obj\Debug\netcoreapp3.1\Projeto5B.AssemblyInfo.vb
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5B\Projeto5B\obj\Debug\netcoreapp3.1\Projeto5B.vbproj.CoreCompileInputs.cache
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5B\Projeto5B\bin\Debug\netcoreapp3.1\Projeto5B.exe
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5B\Projeto5B\bin\Debug\netcoreapp3.1\Projeto5B.deps.json
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5B\Projeto5B\bin\Debug\netcoreapp3.1\Projeto5B.runtimeconfig.json
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5B\Projeto5B\bin\Debug\netcoreapp3.1\Projeto5B.runtimeconfig.dev.json
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5B\Projeto5B\bin\Debug\netcoreapp3.1\Projeto5B.dll
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5B\Projeto5B\bin\Debug\netcoreapp3.1\Projeto5B.pdb
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5B\Projeto5B\obj\Debug\netcoreapp3.1\Projeto5B.dll
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5B\Projeto5B\obj\Debug\netcoreapp3.1\Projeto5B.pdb
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5B\Projeto5B\obj\Debug\netcoreapp3.1\Projeto5B.genruntimeconfig.cache

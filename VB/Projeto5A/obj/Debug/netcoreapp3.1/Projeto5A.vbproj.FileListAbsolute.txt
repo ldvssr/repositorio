@@ -1,0 +1,15 @@
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5A\obj\Debug\netcoreapp3.1\Projeto5A.vbprojAssemblyReference.cache
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5A\obj\Debug\netcoreapp3.1\Projeto5A.Form1.resources
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5A\obj\Debug\netcoreapp3.1\Projeto5A.vbproj.GenerateResource.cache
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5A\obj\Debug\netcoreapp3.1\Projeto5A.AssemblyInfoInputs.cache
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5A\obj\Debug\netcoreapp3.1\Projeto5A.AssemblyInfo.vb
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5A\obj\Debug\netcoreapp3.1\Projeto5A.vbproj.CoreCompileInputs.cache
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5A\bin\Debug\netcoreapp3.1\Projeto5A.exe
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5A\bin\Debug\netcoreapp3.1\Projeto5A.deps.json
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5A\bin\Debug\netcoreapp3.1\Projeto5A.runtimeconfig.json
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5A\bin\Debug\netcoreapp3.1\Projeto5A.runtimeconfig.dev.json
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5A\bin\Debug\netcoreapp3.1\Projeto5A.dll
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5A\bin\Debug\netcoreapp3.1\Projeto5A.pdb
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5A\obj\Debug\netcoreapp3.1\Projeto5A.dll
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5A\obj\Debug\netcoreapp3.1\Projeto5A.pdb
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto5A\obj\Debug\netcoreapp3.1\Projeto5A.genruntimeconfig.cache

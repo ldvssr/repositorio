@@ -1,0 +1,5 @@
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Publicados\Projeto2.exe
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Publicados\Projeto2.dll
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Publicados\Projeto2.deps.json
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Publicados\Projeto2.runtimeconfig.json
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Publicados\Projeto2.pdb

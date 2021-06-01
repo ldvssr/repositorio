@@ -1,0 +1,15 @@
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto4\obj\Debug\netcoreapp3.1\Projeto4.vbprojAssemblyReference.cache
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto4\obj\Debug\netcoreapp3.1\Projeto4.Form1.resources
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto4\obj\Debug\netcoreapp3.1\Projeto4.vbproj.GenerateResource.cache
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto4\obj\Debug\netcoreapp3.1\Projeto4.AssemblyInfoInputs.cache
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto4\obj\Debug\netcoreapp3.1\Projeto4.AssemblyInfo.vb
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto4\obj\Debug\netcoreapp3.1\Projeto4.vbproj.CoreCompileInputs.cache
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto4\bin\Debug\netcoreapp3.1\Projeto4.exe
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto4\bin\Debug\netcoreapp3.1\Projeto4.deps.json
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto4\bin\Debug\netcoreapp3.1\Projeto4.runtimeconfig.json
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto4\bin\Debug\netcoreapp3.1\Projeto4.runtimeconfig.dev.json
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto4\bin\Debug\netcoreapp3.1\Projeto4.dll
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto4\bin\Debug\netcoreapp3.1\Projeto4.pdb
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto4\obj\Debug\netcoreapp3.1\Projeto4.dll
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto4\obj\Debug\netcoreapp3.1\Projeto4.pdb
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto4\obj\Debug\netcoreapp3.1\Projeto4.genruntimeconfig.cache
