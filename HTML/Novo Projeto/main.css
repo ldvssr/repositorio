@@ -1,0 +1,24 @@
+
+*{
+font-size: 25px;
+}
+
+h2{
+    color: red;
+}
+
+h1{
+    color: blue;    
+}
+
+.proxo{
+    color: purple;
+}
+
+#fonte{
+    font-size: 50px;
+}
+
+.fontemaior{
+    font-size: 100px;
+}
