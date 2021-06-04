@@ -28,13 +28,15 @@ void insert(int valor1)
 /*Função Remove (remove o ultimo valor da fila)*/
 int remover()
 {
-	primeiro = primeiro + 1;
+	int valor =0;
+    valor = fila[primeiro];
+    primeiro = primeiro + 1;
     numeroItens = numeroItens -1;
     if (primeiro >= max)
     {
         primeiro = 0;
     }
-    return fila[primeiro];
+    return valor;
 }
 /*Função Full (devolve 0 se pilha cheia
 devolve 1 se a fila ainda tem vagas)*/
