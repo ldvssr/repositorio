@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*Variáveis globais do programa*/
-int fila[30];
+int fila[10];
 int ultimo;
 int primeiro;
 int max;
@@ -9,13 +9,13 @@ int numeroItens;
 /*Procedimento CreateQ (Criação de uma fila - Reset de variaveis)*/
 void create()
 {
-	max = 30;
+	max = 10;
     ultimo = -1;
     primeiro = 0;
     numeroItens = 0;
 }
 /*Procedimento Insert (Inserir novo valor na fila)*/
-void insert(int valor)
+void insert(int valor1)
 {
 	ultimo = ultimo + 1;
     numeroItens = numeroItens + 1;
@@ -26,7 +26,7 @@ void insert(int valor)
     fila[ultimo] = valor1;
 }
 /*Função Remove (remove o ultimo valor da fila)*/
-int remove()
+int remover()
 {
 	primeiro = primeiro + 1;
     numeroItens = numeroItens -1;
@@ -36,7 +36,7 @@ int remove()
     }
     return fila[primeiro];
 }
-/*Função Full (devolve 0 se pilha vazia
+/*Função Full (devolve 0 se pilha cheia
 devolve 1 se a fila ainda tem vagas)*/
 int full()
 {
@@ -49,8 +49,8 @@ int full()
 		return 0;
 	}
 }
-/*Função Full (devolve 0 se pilha vazia
-devolve 1 se a fila ainda tem vagas)*/
+/*Função Empty (devolve 1 se fila vazia
+devolve 0 se a fila nao esta vazia)*/
 int empty()
 {
 	if (numeroItens == 0)
@@ -64,6 +64,8 @@ int empty()
 }
 int main ()
 {
+	/*Vari�veis Locais*/
+	int leitura;
 	/*Apresentacao do programa*/
 	printf("\n Este programa serve para manipular filas.\n");
 	printf("\n");
@@ -88,17 +90,17 @@ int main ()
 				break;
 			case 2:
 				/*Chamar o Procedimento Insert*/
-				int leitura;
-				printf("\n [Push]\tIntroduza o valor na fila:\t");
+				
+				printf("\n [Insert]\tIntroduza o valor na fila:\t");
 				scanf("%d",&leitura);
 				insert(leitura);
 				printf("\n");
 				break;
 			case 3:
 				/*Chamar a Função Remove*/
-                int leitura;
-				printf("\n [Pop]\tO valor apresentado foi removido da fila:\t");
-				printf("%d",remove());
+                
+				printf("\n [Remove]\tO valor apresentado foi removido da fila:\t");
+				printf("%d",remover());
 				printf("\n\n");
 				break;
 			case 4:
@@ -110,7 +112,7 @@ int main ()
 				}
 				else
 				{
-					printf("\n [Full]\tA fila encontra-se preenchida");
+					printf("\n [Full]\tA fila encontra-se cheia");
 					printf("\n\n");
 				}
 				break;

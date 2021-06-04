@@ -47,6 +47,8 @@ int empty()
 }
 int main ()
 {
+	/*Variáveis Locais*/
+	int varLer;
 	/*Apresentacao do programa*/
 	printf("\n Este programa serve para manipular pilhas.\n");
 	printf("\n");
@@ -71,7 +73,7 @@ int main ()
 				break;
 			case 2:
 				/*Chamar o Procedimento Push*/
-				int varLer;
+				
 				printf("\n [Push]\tIntroduza o valor do topo da pilha:\t");
 				scanf("%d",&varLer);
 				push(varLer);
