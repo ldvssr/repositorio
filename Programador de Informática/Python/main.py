@@ -1,6 +1,7 @@
 # isto é um comentário
 '''isto é um comentario em bloco'''
 #ciclo for
+'''
 for n in range(10):
     print(n, "Daniel")
 #lista com 5 elementos
@@ -23,3 +24,19 @@ print(a[4][2])
 x=["brilha","no","escuro"]
 t.append(x)
 print(a)
+#dicionarios
+notas={"nome":"antonio","matematica":13,"Portugues":15,"ingles":16}
+print(notas['nome'])
+print(notas['matematica'])
+notas.pop("ingles")
+for k, v in notas.items():
+    print(k,": ",v)
+notas2={"quimica":12}
+notas.update(notas2)
+for k, v in notas.items():
+    print(k,": ",v)
+'''
+def soma (a=10,b=5):
+    return a+b
+
+print(soma())
