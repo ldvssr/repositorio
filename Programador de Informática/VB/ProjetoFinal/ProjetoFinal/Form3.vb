@@ -4,6 +4,8 @@
     Dim resultado As Integer = 0
     Dim contador As Integer = 0
     Dim max As Integer = 0
+    Dim max2 As Integer = 0
+    Dim max3 As Integer = 0
     Dim n As Integer
     Dim txt As String
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles _lbl.Click
@@ -13,7 +15,19 @@
         somatorio = resultado
         contador = contador + 1
         lbl_contador.Text = contador
-        If valorLido > max Then
+        If valorLido > max3 Then
+            max = max2
+            lbl_maximo.Text = max
+            max2 = max3
+            lbl_maximo2.Text = max2
+            max3 = valorLido
+            lbl_maximo3.Text = max3
+        ElseIf valorLido < max3 And valorLido > max2 Then
+            max = max2
+            lbl_maximo.Text = max
+            max2 = valorLido
+            lbl_maximo2.Text = max2
+        ElseIf valorLido < max2 And valorLido > max Then
             max = valorLido
             lbl_maximo.Text = max
         End If
