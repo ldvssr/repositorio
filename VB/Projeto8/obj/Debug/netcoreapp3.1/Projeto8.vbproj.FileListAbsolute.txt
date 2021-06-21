@@ -1,0 +1,17 @@
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto8\Projeto8\obj\Debug\netcoreapp3.1\Projeto8.vbprojAssemblyReference.cache
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto8\Projeto8\obj\Debug\netcoreapp3.1\Projeto8.Form1.resources
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto8\Projeto8\obj\Debug\netcoreapp3.1\Projeto8.vbproj.GenerateResource.cache
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto8\Projeto8\obj\Debug\netcoreapp3.1\Projeto8.AssemblyInfoInputs.cache
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto8\Projeto8\obj\Debug\netcoreapp3.1\Projeto8.AssemblyInfo.vb
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto8\Projeto8\obj\Debug\netcoreapp3.1\Projeto8.vbproj.CoreCompileInputs.cache
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto8\Projeto8\bin\Debug\netcoreapp3.1\Projeto8.exe
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto8\Projeto8\bin\Debug\netcoreapp3.1\Projeto8.deps.json
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto8\Projeto8\bin\Debug\netcoreapp3.1\Projeto8.runtimeconfig.json
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto8\Projeto8\bin\Debug\netcoreapp3.1\Projeto8.runtimeconfig.dev.json
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto8\Projeto8\bin\Debug\netcoreapp3.1\Projeto8.dll
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto8\Projeto8\bin\Debug\netcoreapp3.1\Projeto8.pdb
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto8\Projeto8\obj\Debug\netcoreapp3.1\Projeto8.dll
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto8\Projeto8\obj\Debug\netcoreapp3.1\Projeto8.pdb
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto8\Projeto8\obj\Debug\netcoreapp3.1\Projeto8.genruntimeconfig.cache
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto8\Projeto8\obj\Debug\netcoreapp3.1\Projeto8.Form2.resources
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto8\Projeto8\obj\Debug\netcoreapp3.1\Projeto8.Form3.resources

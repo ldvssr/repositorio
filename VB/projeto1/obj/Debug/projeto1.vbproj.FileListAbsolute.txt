@@ -1,0 +1,44 @@
+C:\Users\Utilizador\Desktop\Programação - Exercícios\VisualStudio\projeto1\projeto1\bin\Debug\projeto1.exe.config
+C:\Users\Utilizador\Desktop\Programação - Exercícios\VisualStudio\projeto1\projeto1\bin\Debug\projeto1.exe
+C:\Users\Utilizador\Desktop\Programação - Exercícios\VisualStudio\projeto1\projeto1\bin\Debug\projeto1.pdb
+C:\Users\Utilizador\Desktop\Programação - Exercícios\VisualStudio\projeto1\projeto1\bin\Debug\projeto1.xml
+C:\Users\Utilizador\Desktop\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Debug\projeto1.vbprojAssemblyReference.cache
+C:\Users\Utilizador\Desktop\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Debug\projeto1.Form1.resources
+C:\Users\Utilizador\Desktop\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Debug\projeto1.Resources.resources
+C:\Users\Utilizador\Desktop\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Debug\projeto1.vbproj.GenerateResource.cache
+C:\Users\Utilizador\Desktop\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Debug\projeto1.vbproj.CoreCompileInputs.cache
+C:\Users\Utilizador\Desktop\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Debug\projeto1.exe
+C:\Users\Utilizador\Desktop\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Debug\projeto1.xml
+C:\Users\Utilizador\Desktop\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Debug\projeto1.pdb
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\bin\Debug\projeto1.exe.config
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\bin\Debug\projeto1.exe
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\bin\Debug\projeto1.pdb
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\bin\Debug\projeto1.xml
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Debug\projeto1.vbprojAssemblyReference.cache
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Debug\projeto1.Form1.resources
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Debug\projeto1.Resources.resources
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Debug\projeto1.vbproj.GenerateResource.cache
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Debug\projeto1.vbproj.CoreCompileInputs.cache
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Debug\projeto1.exe
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Debug\projeto1.xml
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Debug\projeto1.pdb
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\bin\Debug\projeto1.exe.manifest
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\bin\Debug\projeto1.application
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Debug\projeto1.exe.manifest
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Debug\projeto1.application
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1_0.0\projeto1\bin\Debug\projeto1.exe.config
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1_0.0\projeto1\bin\Debug\projeto1.exe.manifest
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1_0.0\projeto1\bin\Debug\projeto1.application
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1_0.0\projeto1\bin\Debug\projeto1.exe
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1_0.0\projeto1\bin\Debug\projeto1.pdb
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1_0.0\projeto1\bin\Debug\projeto1.xml
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1_0.0\projeto1\obj\Debug\projeto1.vbprojAssemblyReference.cache
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1_0.0\projeto1\obj\Debug\projeto1.Form1.resources
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1_0.0\projeto1\obj\Debug\projeto1.Resources.resources
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1_0.0\projeto1\obj\Debug\projeto1.vbproj.GenerateResource.cache
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1_0.0\projeto1\obj\Debug\projeto1.vbproj.CoreCompileInputs.cache
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1_0.0\projeto1\obj\Debug\projeto1.exe.manifest
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1_0.0\projeto1\obj\Debug\projeto1.application
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1_0.0\projeto1\obj\Debug\projeto1.exe
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1_0.0\projeto1\obj\Debug\projeto1.xml
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1_0.0\projeto1\obj\Debug\projeto1.pdb

@@ -1,0 +1,16 @@
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto7A\Projeto7A\obj\Debug\netcoreapp3.1\Projeto7A.vbprojAssemblyReference.cache
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto7A\Projeto7A\obj\Debug\netcoreapp3.1\Projeto7A.Form1.resources
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto7A\Projeto7A\obj\Debug\netcoreapp3.1\Projeto7A.Form2.resources
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto7A\Projeto7A\obj\Debug\netcoreapp3.1\Projeto7A.vbproj.GenerateResource.cache
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto7A\Projeto7A\obj\Debug\netcoreapp3.1\Projeto7A.AssemblyInfoInputs.cache
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto7A\Projeto7A\obj\Debug\netcoreapp3.1\Projeto7A.AssemblyInfo.vb
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto7A\Projeto7A\obj\Debug\netcoreapp3.1\Projeto7A.vbproj.CoreCompileInputs.cache
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto7A\Projeto7A\bin\Debug\netcoreapp3.1\Projeto7A.exe
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto7A\Projeto7A\bin\Debug\netcoreapp3.1\Projeto7A.deps.json
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto7A\Projeto7A\bin\Debug\netcoreapp3.1\Projeto7A.runtimeconfig.json
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto7A\Projeto7A\bin\Debug\netcoreapp3.1\Projeto7A.runtimeconfig.dev.json
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto7A\Projeto7A\bin\Debug\netcoreapp3.1\Projeto7A.dll
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto7A\Projeto7A\bin\Debug\netcoreapp3.1\Projeto7A.pdb
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto7A\Projeto7A\obj\Debug\netcoreapp3.1\Projeto7A.dll
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto7A\Projeto7A\obj\Debug\netcoreapp3.1\Projeto7A.pdb
+I:\Programação - Exercícios\VisualStudio\Projetos\Projeto7A\Projeto7A\obj\Debug\netcoreapp3.1\Projeto7A.genruntimeconfig.cache

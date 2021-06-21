@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Conversor de Unidades</title>
+        <link rel="stylesheet" type="text/css" href="/static/css/stylesheet2.css">
+        <script type="text/javascript" src="static/jquery/jquery-2.1.1.js"></script>
+        <script type="text/javascript" src="static/jquery/jquery-ui.min.js"></script>
+    </head>
+    <body>
+        <h3>Conversor de unidades de comprimento</h3>
+        <div id="example">
+            <form id="unitconversion">
+                <input name="num1" type="text" value="1" />
+                <select name="unidade1">
+                    <option>Polegadas</option>
+                    <option>Centimetros</option>
+                </select>
+                <label for="para">=</label>
+                <input name="num2" type="text" readonly="true" />
+                <select name="unidade2">
+                    <option>Polegadas</option>
+                    <option>Centimetros</option>
+                </select>
+                <br/>
+                <button name="convert" type="button">convert</button>
+            </form>
+        </div>
+        <script type="text/javascript" src="/static/jquery/uconverter.js" ></script>
+        <img src="/static/images/inch_cm.png" /> 
+    </body>
+</html>

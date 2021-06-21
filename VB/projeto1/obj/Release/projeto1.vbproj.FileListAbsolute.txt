@@ -1,0 +1,16 @@
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\bin\Release\projeto1.exe.config
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\bin\Release\projeto1.exe.manifest
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\bin\Release\projeto1.application
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\bin\Release\projeto1.exe
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\bin\Release\projeto1.pdb
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\bin\Release\projeto1.xml
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Release\projeto1.vbprojAssemblyReference.cache
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Release\projeto1.Form1.resources
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Release\projeto1.Resources.resources
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Release\projeto1.vbproj.GenerateResource.cache
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Release\projeto1.vbproj.CoreCompileInputs.cache
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Release\projeto1.exe.manifest
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Release\projeto1.application
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Release\projeto1.exe
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Release\projeto1.xml
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\projeto1\projeto1\obj\Release\projeto1.pdb

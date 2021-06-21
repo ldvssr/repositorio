@@ -1,0 +1,7 @@
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto2B\obj\Debug\netcoreapp3.1\Projeto2B.vbprojAssemblyReference.cache
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto2B\obj\Debug\netcoreapp3.1\Projeto2B.Form1.resources
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto2B\obj\Debug\netcoreapp3.1\Projeto2B.Resources.resources
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto2B\obj\Debug\netcoreapp3.1\Projeto2B.vbproj.GenerateResource.cache
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto2B\obj\Debug\netcoreapp3.1\Projeto2B.AssemblyInfoInputs.cache
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto2B\obj\Debug\netcoreapp3.1\Projeto2B.AssemblyInfo.vb
+C:\Users\Utilizador\Desktop\Programador - IEFP\Programação - Exercícios\VisualStudio\Projetos\Projeto2B\obj\Debug\netcoreapp3.1\Projeto2B.vbproj.CoreCompileInputs.cache

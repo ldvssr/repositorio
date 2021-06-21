@@ -1,0 +1,14 @@
+﻿body {
+    background-color:blanchedAlmond;
+    color:saddleBrown;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:12px;
+    margin-left:20px;
+     }
+h1, h2 {
+    font-family:”Arial Black”, Gadget, sans-serif;
+    color:midnightBlue;
+    }
+h1  {
+     text-align:center;
+    }
