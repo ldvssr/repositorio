@@ -1,3 +1,3 @@
 from diversos import *
 div = diversos ()
-div.nome()
+div.nome("Daniel")

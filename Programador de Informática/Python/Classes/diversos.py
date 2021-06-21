@@ -1,3 +1,3 @@
 class diversos:
-    def nome (self):
-        print("Margarido")
+    def nome (self, name):
+        print (name)
