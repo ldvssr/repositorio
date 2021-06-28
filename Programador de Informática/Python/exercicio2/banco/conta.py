@@ -26,5 +26,10 @@ class conta:
     #o def serve para definir metodos ou funcoes (getters e setters servem para os metodos)
     def get_saldo (self):
         return self.extrato [len (self.extrato) - 1] ["Saldo"]
+    #getter e setter
+    def set_plafond(self, plafond):
+        self.plafond = plafond
+    def get_plafond(self):
+        return self.plafond
 #•	Criar um construtor que recebe o nome, saldo de abertura, data, descrição. Criar um nº para a conta.
 #•	Criar métodos para inserir movimentos (data, descrição valor) e consultar os movimentos e o saldo.
