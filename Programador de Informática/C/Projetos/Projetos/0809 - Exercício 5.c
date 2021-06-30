@@ -8,7 +8,7 @@ obs:
 	-	Exercicio 5: Neste exercicio por favor crie um programa para verificar se um numero inserido � numero primo,
 e mostre uma mensagem a dizer" o numero inserido � primo", caso n�o seja, imprima a mensagem "o numero inserido N�O � primo"
 Tamb�m verifique se o numero inserido � superior a 10 e mostre uma mensagem caso o seja- "o numero inserido � superior a 10"
-Tamb�m ter� de fazer valida��o de inputs, sendo que o programa deve poder detectar que o utilizador carregou numa tecla que n�o � um numero
+Tamb�m ter� de fazer valida��o de inputs, sendo que o programa deve poder detectar que o utilizador carregou numa tecla que não � um numero
 e avisar de tal erro atrav�s de uma mensagem.
 */
 //Inclus�o de bibliotecas.
@@ -18,7 +18,7 @@ e avisar de tal erro atrav�s de uma mensagem.
 #pragma warning (disable: 4996)
 //Constante.
 #define PI 3.14
-//Regi�o Main.
+//Região Main.
 #pragma region Main
 //Programa principal.
 int main()
@@ -26,30 +26,30 @@ int main()
 	//Permite reconhecer os caracteres portugueses.
 	setlocale(LC_ALL, "Portuguese");
 	//Introdu��o do programa.
-	printf("\n\tEste programa verifica se � um n�mero primo.\n\n\t");
+	printf("\n\tEste programa verifica se um número é primo.\n\n\t");
 	//Declara��o de vari�veis.
 	//Ciclo para repetir.
 	int repetir = 0;
 	do
 	{
 		//Output.		
-		printf("Introduza um n�mero: ");
+		printf("Introduza um número: ");
 		//Input.
 		//Para limpar o buffer de mem�ria do teclado na segunda leitura adiciona-se um espa�o antes de %c.
 		//scanf(" %c", &a);		
 		//Opera��o.//Resposta.		 
-		int loop, number;
-		int prime = 1;		
-		scanf(" %d", &number);
-		for(loop = 2; loop < number; loop++) {
-			if((number % loop) == 0) {
-				prime = 0;
+		int ciclo, numero;
+		int primo = 1;		
+		scanf(" %d", &numero);
+		for(ciclo = 2; ciclo < numero; ciclo++) {
+			if((numero % ciclo) == 0) {
+				primo = 0;
 			}
 		}
-		if (prime == 1)
-			printf("%d is prime number.", number);
+		if (primo == 1)
+			printf("\n\t%d é um número primo.", numero);
 		else
-			printf("%d is not a prime number.", number);
+			printf("\n\t%d não é um número primo.", numero);
 		//printf("Foi introduzido %d cujo caracter = %c\n", b, (char) b);
 		/*printf("%c", a);
 		a = b;
@@ -65,7 +65,7 @@ int main()
 		{
 			printf("\n\tIntroduza um n�mero ou uma letra.\n\t");
 		}*/
-		printf("\n\tDeseja continuar? 0 - Sim / 1 - N�o: ");
+		printf("\n\tDeseja continuar? 0 - Sim / 1 - Não: ");
 		scanf(" %d", &repetir);
 		printf("\n\t");
 	} while (repetir == 0);
