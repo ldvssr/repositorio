@@ -35,7 +35,7 @@ int main5()
 	do
 	{
 		//Output.		
-		printf("Introduza um numero: ");
+		printf("Introduza um número: ");
 		//Input.
 		//Para limpar o buffer de memória do teclado na segunda leitura adiciona-se um espaço antes de %c ou  o comando fflush (stdin);.			
 		//Operação.//Resposta.				
