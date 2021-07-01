@@ -31,7 +31,7 @@ int main()
 	char a = ' ';
 	int b = 0;
 	//Ciclo para repetir.
-	int repetir = 0;
+	int repetir = 1;
 	do
 	{
 		//Output.		
@@ -57,10 +57,10 @@ int main()
 		{
 			printf("\n\tIntroduza um número ou uma letra.\n\t");
 		}*/
-		printf("\n\tDeseja continuar? 0 - Sim / 1 - Não: ");
+		printf("\n\tDeseja continuar? 1 - Sim / 0 - Não: ");
 		scanf(" %d", &repetir);
 		printf("\n\t");
-	} while (repetir == 0);
+	} while (repetir == 1);
 	//Para devolver 0 caso o programa seja executado corretamente.
 	return 0;
 }
