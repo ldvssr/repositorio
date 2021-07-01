@@ -16,18 +16,20 @@ e avisar de tal erro através de uma mensagem.
 #include <locale.h>
 //Desabilitar o aviso de erro 4996.
 #pragma warning (disable: 4996)
-//Constante.
-#define PI 3.14
 //Região Main.
 #pragma region Main
 //Programa principal.
-int main()
+int main5()
 {
 	//Permite reconhecer os caracteres portugueses.
 	setlocale(LC_ALL, "Portuguese");
 	//Introduçãoo do programa.
 	printf("\n\tEste programa verifica se um numero e primo.\n\n\t");
 	//Declaração de variáveis.
+	char tecla = ' ';
+	int teclaASCII = (int)tecla;
+	int ciclo, numero;
+	int primo = 1;
 	//Ciclo para repetir.
 	int repetir = 1;
 	do
@@ -36,9 +38,7 @@ int main()
 		printf("Introduza um numero: ");
 		//Input.
 		//Para limpar o buffer de memória do teclado na segunda leitura adiciona-se um espaço antes de %c ou  o comando fflush (stdin);.			
-		//Operação.//Resposta.		 
-		int ciclo, numero;
-		int primo = 1;		
+		//Operação.//Resposta.				
 		scanf(" %d", &numero);
 		for(ciclo = 2; ciclo < numero; ciclo++) {
 			if((numero % ciclo) == 0) {
