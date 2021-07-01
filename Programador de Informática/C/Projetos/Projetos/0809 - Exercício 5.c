@@ -1,6 +1,6 @@
 /*
 autor: Daniel
-data: 30-06-2021
+data: 1-07-2021
 vers: 1.0
 email: ldvssr@icloud.com
 desc: Exercicio 5
@@ -49,6 +49,10 @@ int main()
 			printf("\n\t%d e um numero primo.\n", numero);
 		else
 			printf("\n\t%d nao e um numero primo.\n", numero);
+		if (numero > 10);
+		{
+			printf("\n\tO numero inserido e superior a dez.\n");
+		}
 		//printf("Foi introduzido %d cujo caracter = %c\n", b, (char) b);
 		/*printf("%c", a);
 		a = b;
