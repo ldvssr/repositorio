@@ -50,7 +50,30 @@ t=56
 t="margarido"
 print(t)
 e = []
-for n in range (2000,3200):
+for n in range (2000,3201):
     if n % 7 == 0 and not n % 5 == 0:
-        e.append(n)
-print(e)
+        e.append(str(n))
+#print(e)
+print(", ".join(e))
+f = {}
+for n in range(1,11):
+    f[n] = n*n
+f['nome']='margarido'    
+print(f)
+for k, v in f.items():
+    print(k, v)
+g = [10, 99, 98, 85, 45, 59, 65, 66, 76, 12, 35, 13, 100, 80, 95]
+contador = 0
+while contador < len(g):
+    if g[contador] > 20 and g[contador] < 60:
+        print(g[contador])
+    contador += 1
+for n in range(0, len(g)):
+    if g[n] > 20 and g[n] < 60:
+        print(g[n])
+print('*'*25)
+def quadrado(valor):
+    resultado = valor * valor
+    return resultado
+h=quadrado(5)
+print(a)
