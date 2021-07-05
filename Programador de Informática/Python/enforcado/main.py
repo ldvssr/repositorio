@@ -1,5 +1,7 @@
 import random
 
+
+
 def desenha_topo():
     print('___')
 

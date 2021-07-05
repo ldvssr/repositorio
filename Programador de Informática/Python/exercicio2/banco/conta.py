@@ -33,3 +33,9 @@ class conta:
         return self.plafond
 #•	Criar um construtor que recebe o nome, saldo de abertura, data, descrição. Criar um nº para a conta.
 #•	Criar métodos para inserir movimentos (data, descrição valor) e consultar os movimentos e o saldo.
+    def movivento(self, descricao, valor, data):
+        saldo = self.extrato[len(self.extrato)-1]["saldo"]+valor
+        movimento = {"descrição":descricao, "movimento":valor, "data":data, "saldo":saldo}
+        self.extrato.append(movimento)
+        #escrever o cabeçalho no ficheiro caso seja a primeira vez
+        

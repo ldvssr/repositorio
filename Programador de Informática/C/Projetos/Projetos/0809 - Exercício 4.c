@@ -13,8 +13,6 @@ obs:
 #include <locale.h>
 //Desabilitar o aviso de erro 4996.
 #pragma warning (disable: 4996)
-//Constante.
-#define PI 3.14
 //Região Main.
 #pragma region Main
 //Programa principal.
@@ -33,8 +31,10 @@ int main4()
 		//Output.		
 		printf("Pressione uma tecla: ");		
 		//Input.
-		//Para limpar o buffer de memória do teclado na segunda leitura adiciona-se um espaço antes de %c.
+		//Para limpar o buffer de memória do teclado na segunda leitura adiciona-se um espaço antes de %c ou  o comando fflush (stdin);.
+		//fflush(stdin);
 		scanf(" %c", &a);
+		printf("%c", a);
 		//Operação.//Resposta.			
 		if (a >= 48 && a <= 57)
 		{
