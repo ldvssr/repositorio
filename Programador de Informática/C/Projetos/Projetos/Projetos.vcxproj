@@ -145,6 +145,7 @@
     <ClCompile Include="0809 - Exercício 4.c" />
     <ClCompile Include="0809 - Exercício 5.c" />
     <ClCompile Include="0809 - Exercício 6.c" />
+    <ClCompile Include="Exercício7.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

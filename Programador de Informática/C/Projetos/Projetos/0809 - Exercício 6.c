@@ -47,7 +47,7 @@ O número é: 5 e o cubo dos 5 é: 125
 //Região main.
 #pragma region Main
 //Programa principal.
-int main()
+int main6()
 {
 	//Permite reconhecer os caracteres portugueses.
 	setlocale(LC_ALL, "Portuguese");
