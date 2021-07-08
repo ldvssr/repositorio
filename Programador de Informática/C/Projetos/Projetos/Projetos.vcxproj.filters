@@ -33,7 +33,7 @@
     <ClCompile Include="0809 - Exercício 6.c">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
-    <ClCompile Include="Exercício7.c">
+    <ClCompile Include="0809 - Exercício7.c">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
   </ItemGroup>

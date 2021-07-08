@@ -82,7 +82,7 @@ int main()
 	setlocale(LC_ALL, "Portuguese");
 	//Introdução do programa.
 	printf("\n\tEste programa serve para responder aos exercícios propostos.\n\t");
-	//Declara??o de variáveis.
+	//Declaração de variáveis.
 	int numero = 0;
 	int soma = 0;
 	int controlo = 0;
