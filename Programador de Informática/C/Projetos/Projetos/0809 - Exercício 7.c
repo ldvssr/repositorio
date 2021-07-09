@@ -76,7 +76,7 @@ O padrao sendo o seguinte:
 //Região main.
 #pragma region Main
 //Programa principal.
-int main()
+int main7()
 {
 	//Permite reconhecer os caracteres portugueses.
 	setlocale(LC_ALL, "Portuguese");
