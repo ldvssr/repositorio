@@ -239,8 +239,7 @@ int main()
 			{
 				fatorial = fatorial * numero;
 			}
-			printf("\n\tfatorial de %d é: %d\n\t", controlo, fatorial);
-			printf("\n\t");
+			printf("\n\tfatorial de %d é: %d\n\t", controlo, fatorial);		
 			numero = 0;
 			fatorial = 0;
 			controlo = 0;
@@ -268,22 +267,21 @@ int main()
 			printf("\n");
 			for (numero = 1; numero <= 1; numero++)
 			{			
-				printf("%c", padrao);
+				printf("\t%c", padrao);
 				printf("\n");								
-				printf("%c", padrao);
+				printf("\t%c", padrao);
 				printf("%c", padrao);
 				printf("\n");
-				printf("%c", padrao);
+				printf("\t%c", padrao);
 				printf("%c", padrao);
 				printf("%c", padrao);
 				printf("\n");	
-				printf("%c", padrao);
+				printf("\t%c", padrao);
 				printf("%c", padrao);
 				printf("%c", padrao);
 				printf("%c", padrao);
 				printf("\n");				
 			}
-			printf("\n\t");
 			numero = 0;
 			break;
 		case 10:

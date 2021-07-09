@@ -1,4 +1,4 @@
-﻿  Exercício7.c
-C:\repositorio\Programador de Informática\C\Projetos\Projetos\Exercício7.c(223,32): warning C4474: 'printf': excesso de argumentos transmitidos para cadeia de caracteres de formato
-C:\repositorio\Programador de Informática\C\Projetos\Projetos\Exercício7.c(223,32): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+﻿  0809 - Exercício7.c
+C:\repositorio\Programador de Informática\C\Projetos\Projetos\0809 - Exercício7.c(222,32): warning C4474: 'printf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\repositorio\Programador de Informática\C\Projetos\Projetos\0809 - Exercício7.c(222,32): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
   Projetos.vcxproj -> C:\repositorio\Programador de Informática\C\Projetos\Projetos\Debug\Projetos.exe
