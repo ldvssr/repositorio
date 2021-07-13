@@ -1,4 +1,4 @@
-﻿  0809 - Exercício 8.c
-C:\repositorio\Programador de Informática\C\Projetos\Projetos\0809 - Exercício 8.c(25,6): warning C4101: 'vetor2': variável local não referenciada
-C:\repositorio\Programador de Informática\C\Projetos\Projetos\0809 - Exercício 8.c(24,6): warning C4101: 'vetor': variável local não referenciada
+﻿  0809 - Exercício 9.c
+C:\repositorio\Programador de Informática\C\Projetos\Projetos\0809 - Exercício 9.c(23,7): warning C4013: 'srand' indefinido; assumindo extern retornando int
+C:\repositorio\Programador de Informática\C\Projetos\Projetos\0809 - Exercício 9.c(34,61): warning C4013: 'rand' indefinido; assumindo extern retornando int
   Projetos.vcxproj -> C:\repositorio\Programador de Informática\C\Projetos\Projetos\Debug\Projetos.exe
