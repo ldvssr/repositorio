@@ -15,7 +15,7 @@ obs:
 //Região main.
 #pragma region Main
 //Programa principal.
-int main()
+int main9()
 {
 	//Permite reconhecer os caracteres portugueses.
 	setlocale(LC_ALL, "Portuguese");

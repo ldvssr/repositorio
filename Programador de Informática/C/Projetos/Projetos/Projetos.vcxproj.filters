@@ -42,5 +42,8 @@
     <ClCompile Include="0809 - Exercício 9.c">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
+    <ClCompile Include="0809 - Exercício 10.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
