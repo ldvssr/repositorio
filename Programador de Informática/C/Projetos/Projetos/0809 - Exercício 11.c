@@ -131,9 +131,9 @@ int main()
 			printf("\n\tExercício N.º 2 - Encontrar o resultado desta expressão: 1! / 1 + 2! / 2 + 3! / 3 + 4! / 4 + 5! / 5.\n\t");
 			int sum;
 			sum = fact(1) / 1 + fact(2) / 2 + fact(3) / 3 + fact(4) / 4 + fact(5) / 5;
-			printf("\n\n Function : find the sum of 1!/1+2!/2+3!/3+4!/4+5!/5 :\n");
-			printf("----------------------------------------------------------\n");
-			printf("The sum of the series is : %d\n\n", sum);
+			printf("\n\tFunction : find the sum of 1!/1+2!/2+3!/3+4!/4+5!/5 :\n");
+			printf("\n\t----------------------------------------------------------\n");
+			printf("\n\tThe sum of the series is : %d\n", sum);
 			break;
 		case 3:
 			printf("\n\tExercício N.º 3 - Verificar se um número é primo ou não usando a função.\n\t");
