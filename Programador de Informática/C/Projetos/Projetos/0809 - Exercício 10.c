@@ -46,7 +46,7 @@ void menor_de_tres_numeros(int num1, int num2, int num3);
 float media_de_tres_inteiros(int num1, int num2, int num3);
 float investimento_futuro(float valor, int anos, float taxa);
 //Programa principal.
-int main()
+int main10()
 {
 	//Permite reconhecer os caracteres portugueses.
 	setlocale(LC_ALL, "Portuguese");

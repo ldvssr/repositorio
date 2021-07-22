@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="0809 - Exercício 1.c" />
     <ClCompile Include="0809 - Exercício 10.c" />
+    <ClCompile Include="0809 - Exercício 11.c" />
     <ClCompile Include="0809 - Exercício 2.c" />
     <ClCompile Include="0809 - Exercício 3.c" />
     <ClCompile Include="0809 - Exercício 4.c" />
