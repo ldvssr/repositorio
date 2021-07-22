@@ -176,7 +176,7 @@ float quadrado(int num)
 }
 void primo(int numero)
 {
-	int ciclo = 0, primo = 0;
+	int ciclo = 0, primo = 1;
 	for (ciclo = 2; ciclo < numero; ciclo++) {
 		if ((numero % ciclo) == 0) {
 			primo = 0;
