@@ -2,9 +2,9 @@ import os
 import smtplib
 from email.message import EmailMessage
 import ntpath
-EMAIL_PASSWORD = '127ht25x'
-EMAIL_ADDRESS = 'jm.formacaoiefp@gmail.com'
-contacts = ['ldvssr@outlook.pt','ldvssr@icloud.com']
+EMAIL_PASSWORD = 'password'
+EMAIL_ADDRESS = 'email'
+contacts = ['email','email']
 msg = EmailMessage()
 msg ['Subject'] = 'Teste!'
 msg ['From'] = EMAIL_ADDRESS
