@@ -37,3 +37,17 @@ while counter > 0:
     value = random.randint(1000, 10000)
     result = agent_list[proponent].get_to_business_2(file, value, agent_list[responder], data_true)
     counter -= 1
+trades = pd.read_csv('analysis_ml.csv')
+accepted = trades[trades['result'] == 1]
+not_accepted = trades[trades['result'] == 0]
+print('===== after analysis =====')
+print('not accepted: {} - accepted: {}'.format(not_accepted.count().value, accepted.count().value))
+print('===== before analysis =====')
+accepted_data = data[data['result'] == 1]
+not_accepted_data = data[data['result'] == 0]
+accepted_data_count = accepted_data.count()
+not_accepted_data_count = not_accepted_data.count()
+print(f'not accepted: {not_accepted_data_count.value} - accepted: {accepted_data_count.value}')
+for agent in agent_list:
+    if agent.type_of_agent == 1:
+        print(agent.get_id(),agent.get_base_threshold(),agent.get_total_earned(),agent.get_total_not_earned())

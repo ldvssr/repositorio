@@ -37,3 +37,9 @@ class agent:
         return result
     def get_id(self):
         return self.id
+    def get_base_threshold(self):
+        return self.base_threshold
+    def get_total_earned(self):
+        return self.total_earned
+    def get_total_not_earned(self):
+        return self.total_not_earned
