@@ -14,7 +14,7 @@ for n in range(0, 20):
         type_of_agent = 0 # proponent
         ag = agent(n, threshold1(), type_of_agent)
     else:
-        type_of_agent = 1 # responder
+        type_of_agent = 1 # respondent
         ag = agent(n, threshold(), type_of_agent)
     agent_list.append(ag)
 file = open('analysis.csv', 'w+')
