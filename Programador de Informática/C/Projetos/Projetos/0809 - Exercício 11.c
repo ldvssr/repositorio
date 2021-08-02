@@ -95,7 +95,7 @@ long toB(int);
 //Região main.
 #pragma region Main
 //Programa principal.
-int main()
+int main11()
 {
 	//Permite reconhecer os caracteres portugueses.
 	setlocale(LC_ALL, "Portuguese");
