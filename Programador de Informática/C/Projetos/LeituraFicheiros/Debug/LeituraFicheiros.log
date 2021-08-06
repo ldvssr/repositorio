@@ -1,0 +1,3 @@
+﻿  Leitura.c
+C:\repositorio\Programador de Informática\C\Projetos\LeituraFicheiros\Leitura.c(42,8): warning C4013: 'getche' indefinido; assumindo extern retornando int
+  LeituraFicheiros.vcxproj -> C:\repositorio\Programador de Informática\C\Projetos\LeituraFicheiros\Debug\LeituraFicheiros.exe
