@@ -143,6 +143,7 @@
     <ClCompile Include="EscritaBinario.c" />
     <ClCompile Include="LeituraBinario.c" />
     <ClCompile Include="ListasSimples.c" />
+    <ClCompile Include="ListasSimples2.c" />
     <ClCompile Include="Malloc.c" />
   </ItemGroup>
   <ItemGroup>

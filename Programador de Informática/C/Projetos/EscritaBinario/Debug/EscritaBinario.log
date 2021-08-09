@@ -1,3 +1,4 @@
 ﻿  ListasSimples.c
+C:\repositorio\Programador de Informática\C\Projetos\EscritaBinario\ListasSimples.c(33,11): warning C4013: 'printList' indefinido; assumindo extern retornando int
 C:\repositorio\Programador de Informática\C\Projetos\EscritaBinario\ListasSimples.c(35,8): warning C4013: 'getche' indefinido; assumindo extern retornando int
   EscritaBinario.vcxproj -> C:\repositorio\Programador de Informática\C\Projetos\EscritaBinario\Debug\EscritaBinario.exe

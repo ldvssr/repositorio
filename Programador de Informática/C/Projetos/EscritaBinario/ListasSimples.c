@@ -16,7 +16,7 @@ void printList(struct Node* n)
 		n = n->next;
 	}
 }
-int main()
+int main5()
 {
 	struct Node* head = NULL;
 	struct Node* second = NULL;
@@ -31,7 +31,7 @@ int main()
 	third->data = 3;
 	third->next = NULL;
 	printList(head);
-
+	free(head);
 	getche();
 	return 0;
 }
