@@ -1,1 +1,2 @@
 C:\repositorio\Programador de Informática\C\Projetos\EscritaBinario\Debug\EscritaBinario.exe
+C:\github\repositorio\Programador de Informática\C\Projetos\EscritaBinario\Debug\EscritaBinario.exe
