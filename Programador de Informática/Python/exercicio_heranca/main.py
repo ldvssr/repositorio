@@ -16,39 +16,59 @@ criar uma classe conta_ordem
 - levantamentos
 '''
 
-class Conta:
-
-    def __init__(self, nome_titular, numero_conta, valor_abertura):
-        self.nome_titular = nome_titular
-        self.numero_conta = numero_conta
-        self.valor_abertura = valor_abertura
-    
-    def get_titular(self):
-        return self.nome_titular
+class conta:
+    def __init__(self, nome, num_conta):
+        self.nome = nome
+        self.num_conta = num_conta
 
     def get_num_conta(self):
-        return self.numero_conta
+        return self.num_conta
+
+    def get_titular(self):
+        return self.nome
+
+class conta_ordem(conta):
+    def __init__(self, nome, num_conta, saldo_ordem):
+        super().__init__(nome, num_conta)
+        self.saldo = saldo_ordem
+
+    def deposito(self, valor):
+        self.saldo += valor
+
+    def levantamento(self, valor):
+        if valor <= self.saldo:
+            self.saldo -= valor
+        else:
+            valor = 0
+
+        return valor
+
+    def get_saldo_ordem(self):
+        return self.saldo
+
+class conta_poupanca(conta_ordem):
+    juros = 0.01
+
+    def __init__(self, nome, num_conta, saldo_ordem, saldo_poupanca):
+        super().__init__(nome, num_conta, saldo_ordem)
+        self.saldo_poupanca = super().levantamento(saldo_poupanca)
 
     def get_saldo(self):
-        return self.valor_abertura
+        return self.saldo_poupanca
 
-class ContaPoupanca(Conta):
-    def __init__(self, nome_titular, numero_conta, valor_abertura, deposito, juros):
-        super().__init__(nome_titular, numero_conta, valor_abertura)
-        self.deposito = deposito
-        self.juros = juros
+    def transferencia(self, valor):
+        self.saldo_poupanca += super().levantamento(valor)
 
-class ContaOrdem(Conta):
-    def __init__(self, nome_titular, numero_conta, valor_abertura, depositos, levantamentos):
-        super().__init__(nome_titular, numero_conta, valor_abertura)
-        self.depositos = depositos
-        self.levantamentos = levantamentos
+    def calc_juros(self):
+        self.saldo_poupanca *= self.juros 
 
-cnt = Conta('Daniel', 1, 1500)
-cntp = ContaPoupanca
-cnto = ContaOrdem
-
-print(cnt.get_titular())
-print(cnt.get_num_conta())
-print(cnt.get_saldo())
+cp = conta_poupanca('Josefina', 12345678, 1000, 100)
+print(cp.get_titular())
+print('Saldo a prazo: ', cp.get_saldo())
+print('Saldo à ordem: ', cp.get_saldo_ordem())
+print('-'*25)
+cp.transferencia(200)
+cp.deposito(150)
+print('Saldo a prazo: ', cp.get_saldo())
+print('Saldo à ordem: ', cp.get_saldo_ordem())
 
