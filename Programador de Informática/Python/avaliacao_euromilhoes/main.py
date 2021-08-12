@@ -51,7 +51,7 @@ def ler_numeros (n1):
     controlo = 0
     contador = 5
     nova_lista = []
-        
+
     while controlo == 0:
         n1=int(input("insira um numero: "))
         if n1 >= 1 and n1 <= 50:
@@ -138,10 +138,3 @@ for j in range (estrelas_total):
 #print(estrelas)
 print('')
 print('-'*50)
-'''
-for n in range (len (numeros)):
-    if numeros_introduzidos[n] == numeros[n]:
-        print('existe')
-    else:
-        print('não existe')
-'''
