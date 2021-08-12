@@ -47,7 +47,7 @@ class conta_ordem(conta):
         return self.saldo
 
 class conta_poupanca(conta_ordem):
-    juros = 0.01
+    juros = 1.01
 
     def __init__(self, nome, num_conta, saldo_ordem, saldo_poupanca):
         super().__init__(nome, num_conta, saldo_ordem)
