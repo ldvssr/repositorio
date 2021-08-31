@@ -75,6 +75,25 @@ bool search(int y)
 	return false;
 }
 
+void deleteNode(int key)
+{
+	Node* temp = head, * prev = NULL;
+	if (temp != NULL && temp->data == key)
+	{
+		head = temp->next;
+		free(temp);
+		return;
+	}
+	while (temp != NULL && temp->data != key)
+	{
+		prev = temp;
+		temp = temp->next;
+	}
+	if (temp == NULL)return;
+	prev->next = temp->next;
+	free(temp);
+}
+
 int main()
 {
 	insertEnd(10);
@@ -88,6 +107,25 @@ int main()
 	printf("\n%d elementos", getCount(head));
 
 	printList1();
+
+	deleteNode(50);
+
+	printList1();
+
+	//Explicação de operadores ternários.
+	int a = 10, b = 25, c;
+	if (a < b)
+	{
+		c = a;
+	}
+	else
+	{
+		c = b;
+	}
+	printf("%d", c);
+	//Operador ternário.
+	c = (a < b) ? a : b;
+	printf("%d", c);
 
 	getche();
 	return 0;

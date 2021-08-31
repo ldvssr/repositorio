@@ -5,5 +5,7 @@ C:\github\repositorio\Programador de Informática\C\Projetos\EscritaBinario\List
 C:\github\repositorio\Programador de Informática\C\Projetos\EscritaBinario\ListasSimples2.c(51,23): warning C4133: '=': tipos incompatíveis - de 'Node *' para 'Node *'
 C:\github\repositorio\Programador de Informática\C\Projetos\EscritaBinario\ListasSimples2.c(62,20): warning C4133: '=': tipos incompatíveis - de 'Node *' para 'Node *'
 C:\github\repositorio\Programador de Informática\C\Projetos\EscritaBinario\ListasSimples2.c(73,26): warning C4133: '=': tipos incompatíveis - de 'Node *' para 'Node *'
-C:\github\repositorio\Programador de Informática\C\Projetos\EscritaBinario\ListasSimples2.c(92,8): warning C4013: 'getche' indefinido; assumindo extern retornando int
+C:\github\repositorio\Programador de Informática\C\Projetos\EscritaBinario\ListasSimples2.c(83,20): warning C4133: '=': tipos incompatíveis - de 'Node *' para 'Node *'
+C:\github\repositorio\Programador de Informática\C\Projetos\EscritaBinario\ListasSimples2.c(90,20): warning C4133: '=': tipos incompatíveis - de 'Node *' para 'Node *'
+C:\github\repositorio\Programador de Informática\C\Projetos\EscritaBinario\ListasSimples2.c(130,8): warning C4013: 'getche' indefinido; assumindo extern retornando int
   EscritaBinario.vcxproj -> C:\github\repositorio\Programador de Informática\C\Projetos\EscritaBinario\Debug\EscritaBinario.exe
