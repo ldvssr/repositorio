@@ -1,0 +1,3 @@
+﻿  main3.c
+C:\github\repositorio\Programador de Informática\C\Projetos\recursividade01\main3.c(43): warning C4715: 'potencia': nem todos os caminhos de controle retornam um valor
+  recursividade01.vcxproj -> C:\github\repositorio\Programador de Informática\C\Projetos\recursividade01\Debug\recursividade01.exe
