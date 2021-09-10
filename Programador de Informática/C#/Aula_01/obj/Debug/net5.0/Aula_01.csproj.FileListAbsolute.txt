@@ -1,0 +1,15 @@
+C:\github\repositorio\Programador de Informática\C#\Aula_01\bin\Debug\net5.0\Aula_01.exe
+C:\github\repositorio\Programador de Informática\C#\Aula_01\bin\Debug\net5.0\Aula_01.deps.json
+C:\github\repositorio\Programador de Informática\C#\Aula_01\bin\Debug\net5.0\Aula_01.runtimeconfig.json
+C:\github\repositorio\Programador de Informática\C#\Aula_01\bin\Debug\net5.0\Aula_01.runtimeconfig.dev.json
+C:\github\repositorio\Programador de Informática\C#\Aula_01\bin\Debug\net5.0\Aula_01.dll
+C:\github\repositorio\Programador de Informática\C#\Aula_01\bin\Debug\net5.0\ref\Aula_01.dll
+C:\github\repositorio\Programador de Informática\C#\Aula_01\bin\Debug\net5.0\Aula_01.pdb
+C:\github\repositorio\Programador de Informática\C#\Aula_01\obj\Debug\net5.0\Aula_01.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\repositorio\Programador de Informática\C#\Aula_01\obj\Debug\net5.0\Aula_01.AssemblyInfoInputs.cache
+C:\github\repositorio\Programador de Informática\C#\Aula_01\obj\Debug\net5.0\Aula_01.AssemblyInfo.cs
+C:\github\repositorio\Programador de Informática\C#\Aula_01\obj\Debug\net5.0\Aula_01.csproj.CoreCompileInputs.cache
+C:\github\repositorio\Programador de Informática\C#\Aula_01\obj\Debug\net5.0\Aula_01.dll
+C:\github\repositorio\Programador de Informática\C#\Aula_01\obj\Debug\net5.0\ref\Aula_01.dll
+C:\github\repositorio\Programador de Informática\C#\Aula_01\obj\Debug\net5.0\Aula_01.pdb
+C:\github\repositorio\Programador de Informática\C#\Aula_01\obj\Debug\net5.0\Aula_01.genruntimeconfig.cache
