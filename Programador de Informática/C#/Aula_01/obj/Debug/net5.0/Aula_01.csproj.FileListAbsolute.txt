@@ -13,3 +13,4 @@ C:\github\repositorio\Programador de Informática\C#\Aula_01\obj\Debug\net5.0\Au
 C:\github\repositorio\Programador de Informática\C#\Aula_01\obj\Debug\net5.0\ref\Aula_01.dll
 C:\github\repositorio\Programador de Informática\C#\Aula_01\obj\Debug\net5.0\Aula_01.pdb
 C:\github\repositorio\Programador de Informática\C#\Aula_01\obj\Debug\net5.0\Aula_01.genruntimeconfig.cache
+C:\github\repositorio\Programador de Informática\C#\Aula_01\obj\Debug\net5.0\Aula_01.csproj.AssemblyReference.cache

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Aula_01
 {
@@ -16,9 +17,9 @@ namespace Aula_01
             } catch (Exception e)
             {
                 Console.WriteLine("Precisa de 2 argumentos!");
-                //Ou.
+                //Ou (Para saber qual a mensagem do sistema).
                 Console.WriteLine(e.Message);
-                //Ou.
+                //Ou (Quando a mensagem do sistema não é bem perceptível ao utilizador adicionamos uma mensagem auxiliar).
                 Console.WriteLine($"O sistema devolveu a mensagem '{e.Message}'");
             }
 
@@ -31,6 +32,28 @@ namespace Aula_01
 
             //Ou outra forma de escrever.
             //Console.WriteLine("Olá " + args[0] + " " + args[1]);
+
+            int a1 = 5;
+            float a2 = 6.5f;
+            double a3 = 7.8;
+            string a4 = "Daniel";
+            bool a5 = true;
+            Boolean a6 = false;
+
+            //--------------------------
+
+            List<string> lista = new List<string>();
+
+            lista.Add("Daniel");
+            lista.Add("Ventura");
+
+            foreach(var lst in lista)
+            {
+                Console.WriteLine(lst);
+            }
+
+            //Imprimir a variável a1.
+            Console.WriteLine(a1);
 
             //Para não fechar logo, pedimos para receber um input.
             Console.ReadKey();
