@@ -130,7 +130,17 @@ namespace Aula_01
 
             Console.WriteLine(nome_dia);
 
+            int i = 0;
+            while (i < 10)
+            {
+                Console.WriteLine(i);
+                i++;
+            }
 
+            for (int n = 10; n < 20; n++)
+            {
+                Console.WriteLine(n);
+            }
 
             //Para não fechar logo, pedimos para receber um input.
             Console.ReadKey();
