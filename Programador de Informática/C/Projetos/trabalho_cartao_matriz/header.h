@@ -6,4 +6,10 @@
 
 #pragma warning (disable: 4996)
 
-//int soma(int a, int b);
+struct Node {
+	int data[5];
+	struct Node* next;
+};
+
+struct Node* head; 
+struct Node* temp;
