@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace Aula_01
 {
@@ -130,6 +131,8 @@ namespace Aula_01
 
             Console.WriteLine(nome_dia);
 
+            //--------------------------
+
             int i = 0;
             while (i < 10)
             {
@@ -137,13 +140,81 @@ namespace Aula_01
                 i++;
             }
 
+            //--------------------------
+
             for (int n = 10; n < 20; n++)
             {
                 Console.WriteLine(n);
             }
 
+            //--------------------------
+
+            
+            //--------------------------
+
+            Program p = new Program();
+            p.myTeste(5);
+
+            //--------------------------
+
+            p.Se();
+
+            //--------------------------
+
+            p.Ficheiros();
+
+            //--------------------------
+
+            
+
             //Para não fechar logo, pedimos para receber um input.
             Console.ReadKey();
+
+            //--------------------------
+
         }
+
+        //--------------------------
+
+        public void myTeste (int a)
+        {
+            a += 20;
+            Console.WriteLine(a);
+        }
+
+        //--------------------------
+
+        public void Se()
+        {
+            int idade = 15;
+
+            if (idade <= 12)
+            {
+                Console.WriteLine("Criança");
+            }
+            else if (idade > 12 && idade < 20)
+            {
+                Console.WriteLine("Adolescente");
+            }
+            else if (idade >= 20 && idade <= 65)
+            {
+                Console.WriteLine("Adulto");
+            }
+            else
+            {
+                Console.WriteLine("Idoso");
+            }
+        }
+
+        //--------------------------
+
+        public void Ficheiros()
+        {
+            File.WriteAllText(@"c:\downloads\teste.txt", "Daniel;13175995,222889128\n");
+            File.AppendAllText(@"c:\downloads\teste.txt", "Daniel;13175995,222889128\n");
+        }
+
+        //--------------------------
+
     }
 }
