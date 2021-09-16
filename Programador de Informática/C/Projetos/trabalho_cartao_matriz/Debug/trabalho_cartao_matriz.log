@@ -1,1 +1,7 @@
-﻿  trabalho_cartao_matriz.vcxproj -> C:\github\repositorio\Programador de Informática\C\Projetos\trabalho_cartao_matriz\Debug\trabalho_cartao_matriz.exe
+﻿  main.c
+C:\github\repositorio\Programador de Informática\C\Projetos\trabalho_cartao_matriz\main.c(16,18): warning C4244: 'função': conversão de 'time_t' para 'unsigned int', possível perda de dados
+C:\github\repositorio\Programador de Informática\C\Projetos\trabalho_cartao_matriz\main.c(17,8): warning C4013: 'insert' indefinido; assumindo extern retornando int
+C:\github\repositorio\Programador de Informática\C\Projetos\trabalho_cartao_matriz\main.c(17,18): warning C4013: 'RandomNum' indefinido; assumindo extern retornando int
+C:\github\repositorio\Programador de Informática\C\Projetos\trabalho_cartao_matriz\main.c(19,13): warning C4013: 'CriarCartao' indefinido; assumindo extern retornando int
+C:\github\repositorio\Programador de Informática\C\Projetos\trabalho_cartao_matriz\main.c(20,17): warning C4013: 'EscolheNumLetra' indefinido; assumindo extern retornando int
+  trabalho_cartao_matriz.vcxproj -> C:\github\repositorio\Programador de Informática\C\Projetos\trabalho_cartao_matriz\Debug\trabalho_cartao_matriz.exe

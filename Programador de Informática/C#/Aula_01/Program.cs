@@ -165,7 +165,35 @@ namespace Aula_01
 
             //--------------------------
 
-            
+            Random rnd = new Random();
+            int num = rnd.Next(1, 101);
+
+            int controlo = 1;
+
+            while (controlo == 1)
+            {
+
+                Console.WriteLine("\nIntroduza um número: ");
+
+                string leitura = Console.ReadLine();
+
+                int.TryParse(leitura, out int num_introd);
+
+                if (num_introd < num)
+                {
+                    Console.WriteLine("\nnumero pequeno");
+                }
+                else if (num_introd > num)
+                {
+                    Console.WriteLine("\nnumero grande");
+                }
+                else
+                {
+                    Console.WriteLine("\nAcertou!");
+                    controlo = 0;
+                }
+
+            }
 
             //Para não fechar logo, pedimos para receber um input.
             Console.ReadKey();
@@ -223,6 +251,8 @@ namespace Aula_01
         }
 
         //--------------------------
+
+        
 
     }
 }
