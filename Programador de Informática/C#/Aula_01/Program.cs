@@ -210,8 +210,16 @@ namespace Aula_01
 
         public void Ficheiros()
         {
-            File.WriteAllText(@"c:\downloads\teste.txt", "Daniel;13175995,222889128\n");
-            File.AppendAllText(@"c:\downloads\teste.txt", "Daniel;13175995,222889128\n");
+            File.WriteAllText(@"C:\github\repositorio\Programador de Informática\C#\Aula_01\teste.txt", "Daniel;13175995,222889128\n");
+            File.AppendAllText(@"C:\github\repositorio\Programador de Informática\C#\Aula_01\teste.txt", "Daniel;13175995,222889128\n");
+
+            foreach (string line in File.ReadLines(@"C:\github\repositorio\Programador de Informática\C#\Aula_01\teste.txt"))
+            {
+                Console.WriteLine(line);
+            }
+
+            File.Delete(@"C:\github\repositorio\Programador de Informática\C#\Aula_01\teste.txt");
+
         }
 
         //--------------------------
