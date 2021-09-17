@@ -161,7 +161,7 @@ namespace Aula_01
 
             //--------------------------
 
-            p.Ficheiros();
+            //p.Ficheiros();
 
             //--------------------------
 
@@ -173,7 +173,7 @@ namespace Aula_01
             while (controlo == 1)
             {
 
-                Console.WriteLine("\nIntroduza um número: ");
+                Console.WriteLine("\nIntroduza um Número: ");
 
                 string leitura = Console.ReadLine();
 
@@ -181,11 +181,11 @@ namespace Aula_01
 
                 if (num_introd < num)
                 {
-                    Console.WriteLine("\nnumero pequeno");
+                    Console.WriteLine("\nNúmero Pequeno!");
                 }
                 else if (num_introd > num)
                 {
-                    Console.WriteLine("\nnumero grande");
+                    Console.WriteLine("\nNúmero Grande!");
                 }
                 else
                 {
