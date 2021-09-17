@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace Aula_01
 {
@@ -40,6 +41,15 @@ namespace Aula_01
             bool a5 = true;
             Boolean a6 = false;
 
+            //Imprimir a variável a1.
+            Console.WriteLine(a1);
+
+            Console.WriteLine(a2); 
+            Console.WriteLine(a3);
+            Console.WriteLine(a4); 
+            Console.WriteLine(a5);
+            Console.WriteLine(a6);
+
             //--------------------------
 
             List<string> lista = new List<string>();
@@ -52,11 +62,197 @@ namespace Aula_01
                 Console.WriteLine(lst);
             }
 
-            //Imprimir a variável a1.
-            Console.WriteLine(a1);
+            Console.WriteLine(lista[0]);
+
+            //--------------------------
+
+            var cidades = new Dictionary<string, string>()
+            {
+                {"Norte", "Porto" },
+                {"Centro", "Coimbra" },
+                {"Lisboa", "Lisboa" },
+                {"Alentejo", "Beja" },
+                {"Algarve", "Faro" }
+            };
+
+            foreach (var kvp in cidades)
+                Console.WriteLine("Key: {0}, Values: {1}", kvp.Key, kvp.Value);
+
+            Console.WriteLine(cidades["Norte"]);
+
+            //--------------------------
+
+            string s = Console.ReadLine();
+
+            //int dia;
+            //try
+            //{
+            //    dia = Convert.ToInt32(s);
+            //}catch (Exception e)
+            //{
+            //    dia = -1;
+            //}
+
+            int.TryParse(s, out int dia);
+
+            if (dia == 0) dia = -1;
+
+            //int dia = 0;
+
+            string nome_dia = "" ;
+
+            switch(dia)
+            {
+                case 0:
+                    nome_dia = "Domingo";
+                    break;
+                case 1:
+                    nome_dia = "Segunda";
+                    break;
+                case 2:
+                    nome_dia = "Terça";
+                    break;
+                case 3:
+                    nome_dia = "Quarta";
+                    break;
+                case 4:
+                    nome_dia = "Quinta";
+                    break;
+                case 5:
+                    nome_dia = "Sexta";
+                    break;
+                case 6:
+                    nome_dia = "Sábado";
+                    break;
+                default:
+                    nome_dia = "Inválido";
+                    break;
+            }
+
+            Console.WriteLine(nome_dia);
+
+            //--------------------------
+
+            int i = 0;
+            while (i < 10)
+            {
+                Console.WriteLine(i);
+                i++;
+            }
+
+            //--------------------------
+
+            for (int n = 10; n < 20; n++)
+            {
+                Console.WriteLine(n);
+            }
+
+            //--------------------------
+
+            
+            //--------------------------
+
+            Program p = new Program();
+            p.myTeste(5);
+
+            //--------------------------
+
+            p.Se();
+
+            //--------------------------
+
+            p.Ficheiros();
+
+            //--------------------------
+
+            Random rnd = new Random();
+            int num = rnd.Next(1, 101);
+
+            int controlo = 1;
+
+            while (controlo == 1)
+            {
+
+                Console.WriteLine("\nIntroduza um número: ");
+
+                string leitura = Console.ReadLine();
+
+                int.TryParse(leitura, out int num_introd);
+
+                if (num_introd < num)
+                {
+                    Console.WriteLine("\nnumero pequeno");
+                }
+                else if (num_introd > num)
+                {
+                    Console.WriteLine("\nnumero grande");
+                }
+                else
+                {
+                    Console.WriteLine("\nAcertou!");
+                    controlo = 0;
+                }
+
+            }
 
             //Para não fechar logo, pedimos para receber um input.
             Console.ReadKey();
+
+            //--------------------------
+
         }
+
+        //--------------------------
+
+        public void myTeste (int a)
+        {
+            a += 20;
+            Console.WriteLine(a);
+        }
+
+        //--------------------------
+
+        public void Se()
+        {
+            int idade = 15;
+
+            if (idade <= 12)
+            {
+                Console.WriteLine("Criança");
+            }
+            else if (idade > 12 && idade < 20)
+            {
+                Console.WriteLine("Adolescente");
+            }
+            else if (idade >= 20 && idade <= 65)
+            {
+                Console.WriteLine("Adulto");
+            }
+            else
+            {
+                Console.WriteLine("Idoso");
+            }
+        }
+
+        //--------------------------
+
+        public void Ficheiros()
+        {
+            File.WriteAllText(@"C:\github\repositorio\Programador de Informática\C#\Aula_01\teste.txt", "Daniel;13175995,222889128\n");
+            File.AppendAllText(@"C:\github\repositorio\Programador de Informática\C#\Aula_01\teste.txt", "Daniel;13175995,222889128\n");
+
+            foreach (string line in File.ReadLines(@"C:\github\repositorio\Programador de Informática\C#\Aula_01\teste.txt"))
+            {
+                Console.WriteLine(line);
+            }
+
+            File.Delete(@"C:\github\repositorio\Programador de Informática\C#\Aula_01\teste.txt");
+
+        }
+
+        //--------------------------
+
+        
+
     }
 }
