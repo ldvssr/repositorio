@@ -16,5 +16,10 @@ namespace Processamento_de_Salários
         {
             InitializeComponent();
         }
+
+        private void btnRegistar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
