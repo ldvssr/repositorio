@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Processamento_de_Salários/1.0.0": {
+        "runtime": {
+          "Processamento_de_Salários.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Processamento_de_Salários/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
