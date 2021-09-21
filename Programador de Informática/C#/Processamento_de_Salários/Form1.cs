@@ -22,5 +22,12 @@ namespace Processamento_de_Salários
             frmInserirEmpregado inserir_empregado = new frmInserirEmpregado();
             inserir_empregado.ShowDialog();
         }
+
+        private void consultarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmConsultarEmpregado fce = new frmConsultarEmpregado();
+            fce.ShowDialog();
+
+        }
     }
 }

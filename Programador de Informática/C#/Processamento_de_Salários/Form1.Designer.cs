@@ -32,6 +32,7 @@ namespace Processamento_de_Salários
             this.menuPrincipal = new System.Windows.Forms.MenuStrip();
             this.empregadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.inserirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -42,36 +43,42 @@ namespace Processamento_de_Salários
             this.empregadoToolStripMenuItem});
             this.menuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.menuPrincipal.Name = "menuPrincipal";
-            this.menuPrincipal.Padding = new System.Windows.Forms.Padding(9, 3, 0, 3);
-            this.menuPrincipal.Size = new System.Drawing.Size(774, 35);
+            this.menuPrincipal.Size = new System.Drawing.Size(686, 24);
             this.menuPrincipal.TabIndex = 0;
             this.menuPrincipal.Text = "menuStrip1";
             // 
             // empregadoToolStripMenuItem
             // 
             this.empregadoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.inserirToolStripMenuItem});
+            this.inserirToolStripMenuItem,
+            this.consultarToolStripMenuItem});
             this.empregadoToolStripMenuItem.Name = "empregadoToolStripMenuItem";
-            this.empregadoToolStripMenuItem.Size = new System.Drawing.Size(121, 29);
+            this.empregadoToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
             this.empregadoToolStripMenuItem.Text = "Empregado";
             // 
             // inserirToolStripMenuItem
             // 
             this.inserirToolStripMenuItem.Name = "inserirToolStripMenuItem";
-            this.inserirToolStripMenuItem.Size = new System.Drawing.Size(162, 34);
+            this.inserirToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.inserirToolStripMenuItem.Text = "Inserir";
             this.inserirToolStripMenuItem.Click += new System.EventHandler(this.inserirToolStripMenuItem_Click);
             // 
+            // consultarToolStripMenuItem
+            // 
+            this.consultarToolStripMenuItem.Name = "consultarToolStripMenuItem";
+            this.consultarToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.consultarToolStripMenuItem.Text = "Consultar";
+            this.consultarToolStripMenuItem.Click += new System.EventHandler(this.consultarToolStripMenuItem_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Blue;
-            this.ClientSize = new System.Drawing.Size(774, 540);
+            this.ClientSize = new System.Drawing.Size(686, 262);
             this.Controls.Add(this.menuPrincipal);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MainMenuStrip = this.menuPrincipal;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
@@ -90,6 +97,7 @@ namespace Processamento_de_Salários
         private System.Windows.Forms.MenuStrip menuPrincipal;
         private System.Windows.Forms.ToolStripMenuItem empregadoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem inserirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultarToolStripMenuItem;
     }
 }
 

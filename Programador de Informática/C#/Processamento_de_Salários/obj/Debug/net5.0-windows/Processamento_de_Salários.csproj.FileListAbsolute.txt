@@ -36,3 +36,5 @@ C:\github\repositorio\Programador de Informática\C#\Processamento_de_Salários\
 C:\github\repositorio\Programador de Informática\C#\Processamento_de_Salários\obj\Debug\net5.0-windows\ref\Processamento_de_Salários.dll
 C:\github\repositorio\Programador de Informática\C#\Processamento_de_Salários\obj\Debug\net5.0-windows\Processamento_de_Salários.pdb
 C:\github\repositorio\Programador de Informática\C#\Processamento_de_Salários\obj\Debug\net5.0-windows\Processamento_de_Salários.genruntimeconfig.cache
+C:\github\repositorio\Programador de Informática\C#\Processamento_de_Salários\obj\Debug\net5.0-windows\Processamento_de_Salários.frmConsultarEmpregado.resources
+C:\github\repositorio\Programador de Informática\C#\Processamento_de_Salários\obj\Debug\net5.0-windows\Processamento_de_Salários.frmEditarEmpregado.resources

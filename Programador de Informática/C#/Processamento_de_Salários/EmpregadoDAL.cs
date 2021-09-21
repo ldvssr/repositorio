@@ -39,5 +39,34 @@ namespace Processamento_de_Salários
 
             return texto;
         }
+
+        public List<Empregado> GetAllEmpregados()
+        {
+            var Lista = new List<Empregado>();
+
+            if(!File.Exists(path))
+            {
+                Lista = null;
+                return Lista;
+            }
+
+            foreach(string line in File.ReadLines(path))
+            {
+                string[] dados = line.Split(';');
+                Lista.Add(new Empregado()
+                {
+                    Referencia = dados[0],
+                    Nome = dados[1],
+                    Salario = Convert.ToInt32(dados[2]),
+                    DescontoIRS = Convert.ToDouble(dados[3]),
+                    NIF = dados [4],
+                    NISS = dados [5]
+                });
+            }
+
+            return Lista;
+
+        }
+
     }
 }

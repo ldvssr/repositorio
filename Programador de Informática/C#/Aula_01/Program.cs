@@ -191,8 +191,10 @@ namespace Aula_01
                 {
                     Console.WriteLine("\nAcertou!");
                     Console.WriteLine($"O número é {num}");
-                    Console.WriteLine("O número é " + num);
-                    Console.WriteLine("O número é {0}", num);
+                    //ou
+                    //Console.WriteLine("O número é " + num);
+                    //ou
+                    //Console.WriteLine("O número é {0}", num);
                     controlo = 0;
                 }
 
