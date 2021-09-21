@@ -68,8 +68,19 @@ namespace Processamento_de_Salários
 
         }
 
-        public void AlterarEmpregado(Empregado emp)
+        public void AlterarEmpregado(Empregado emp, string oldref)
         {
+
+            string registo = emp.Referencia + ";";
+            registo += emp.Nome + ";";
+            registo += emp.Salario + ";";
+            registo += emp.DescontoIRS + ";";
+            registo += emp.NIF + ";";
+            registo += emp.NISS + "\n";
+            
+            string[] listaempregados = File.ReadAllLines(path);
+
+            File.WriteAllText(path, registo);
 
         }
 
