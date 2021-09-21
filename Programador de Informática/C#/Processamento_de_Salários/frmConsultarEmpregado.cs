@@ -52,8 +52,12 @@ namespace Processamento_de_Salários
             {
                 var selectedRow = dataGridView1.SelectedRows[0].DataBoundItem as Empregado;
 
-                Handler handler = new Handler();
-                handler.AlterarEmpregado(selectedRow);
+                frmEditarEmpregado fee = new frmEditarEmpregado();
+
+
+                fee.setValores(selectedRow);
+
+                fee.ShowDialog();
 
 
                 MessageBox.Show(selectedRow.Nome);

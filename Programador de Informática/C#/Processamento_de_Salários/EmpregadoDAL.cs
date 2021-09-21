@@ -68,5 +68,10 @@ namespace Processamento_de_Salários
 
         }
 
+        public void AlterarEmpregado(Empregado emp)
+        {
+
+        }
+
     }
 }

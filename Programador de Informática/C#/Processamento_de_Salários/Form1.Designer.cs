@@ -43,7 +43,7 @@ namespace Processamento_de_Salários
             this.empregadoToolStripMenuItem});
             this.menuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.menuPrincipal.Name = "menuPrincipal";
-            this.menuPrincipal.Size = new System.Drawing.Size(686, 24);
+            this.menuPrincipal.Size = new System.Drawing.Size(680, 24);
             this.menuPrincipal.TabIndex = 0;
             this.menuPrincipal.Text = "menuStrip1";
             // 
@@ -75,7 +75,7 @@ namespace Processamento_de_Salários
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Blue;
-            this.ClientSize = new System.Drawing.Size(686, 262);
+            this.ClientSize = new System.Drawing.Size(680, 307);
             this.Controls.Add(this.menuPrincipal);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MainMenuStrip = this.menuPrincipal;

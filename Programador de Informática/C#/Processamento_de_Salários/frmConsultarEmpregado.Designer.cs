@@ -41,12 +41,12 @@ namespace Processamento_de_Salários
             this.dataGridView1.Location = new System.Drawing.Point(12, 12);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(713, 318);
+            this.dataGridView1.Size = new System.Drawing.Size(656, 254);
             this.dataGridView1.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 336);
+            this.button1.Location = new System.Drawing.Point(12, 272);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
@@ -56,7 +56,7 @@ namespace Processamento_de_Salários
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(650, 336);
+            this.button2.Location = new System.Drawing.Point(593, 272);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 2;
@@ -68,7 +68,7 @@ namespace Processamento_de_Salários
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(737, 371);
+            this.ClientSize = new System.Drawing.Size(680, 307);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);

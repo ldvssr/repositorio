@@ -8,8 +8,14 @@ namespace Processamento_de_Salários
 {
     public class Handler
     {
-        public void AlterarEmpregado(Empregado valores)
+        public void AlterarEmpregado(Empregado emp, string oldref)
         {
+            
+            EmpregadoDAL dal = new EmpregadoDAL();
+
+            dal.AlterarEmpregado(emp, oldref);
+
+
 
         }
     }

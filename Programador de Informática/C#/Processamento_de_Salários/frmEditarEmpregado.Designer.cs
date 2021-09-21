@@ -63,7 +63,7 @@ namespace Processamento_de_Salários
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(665, 220);
+            this.groupBox1.Size = new System.Drawing.Size(656, 254);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Editar Empregado";
@@ -72,7 +72,7 @@ namespace Processamento_de_Salários
             // 
             this.tbNISS.Location = new System.Drawing.Point(93, 192);
             this.tbNISS.Name = "tbNISS";
-            this.tbNISS.Size = new System.Drawing.Size(566, 23);
+            this.tbNISS.Size = new System.Drawing.Size(542, 23);
             this.tbNISS.TabIndex = 11;
             // 
             // label4
@@ -88,7 +88,7 @@ namespace Processamento_de_Salários
             // 
             this.tbNIF.Location = new System.Drawing.Point(93, 163);
             this.tbNIF.Name = "tbNIF";
-            this.tbNIF.Size = new System.Drawing.Size(566, 23);
+            this.tbNIF.Size = new System.Drawing.Size(542, 23);
             this.tbNIF.TabIndex = 9;
             // 
             // label5
@@ -104,7 +104,7 @@ namespace Processamento_de_Salários
             // 
             this.tbDescIRS.Location = new System.Drawing.Point(93, 134);
             this.tbDescIRS.Name = "tbDescIRS";
-            this.tbDescIRS.Size = new System.Drawing.Size(566, 23);
+            this.tbDescIRS.Size = new System.Drawing.Size(542, 23);
             this.tbDescIRS.TabIndex = 7;
             // 
             // label6
@@ -120,7 +120,7 @@ namespace Processamento_de_Salários
             // 
             this.tbSalario.Location = new System.Drawing.Point(93, 105);
             this.tbSalario.Name = "tbSalario";
-            this.tbSalario.Size = new System.Drawing.Size(566, 23);
+            this.tbSalario.Size = new System.Drawing.Size(542, 23);
             this.tbSalario.TabIndex = 5;
             // 
             // label3
@@ -136,7 +136,7 @@ namespace Processamento_de_Salários
             // 
             this.tbNome.Location = new System.Drawing.Point(93, 76);
             this.tbNome.Name = "tbNome";
-            this.tbNome.Size = new System.Drawing.Size(566, 23);
+            this.tbNome.Size = new System.Drawing.Size(542, 23);
             this.tbNome.TabIndex = 3;
             // 
             // label2
@@ -152,8 +152,8 @@ namespace Processamento_de_Salários
             // 
             this.tbReferencia.Location = new System.Drawing.Point(93, 47);
             this.tbReferencia.Name = "tbReferencia";
-            this.tbReferencia.Size = new System.Drawing.Size(566, 23);
-            this.tbReferencia.TabIndex = 1;            
+            this.tbReferencia.Size = new System.Drawing.Size(542, 23);
+            this.tbReferencia.TabIndex = 1;
             // 
             // label1
             // 
@@ -166,27 +166,29 @@ namespace Processamento_de_Salários
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(13, 307);
+            this.btnGuardar.Location = new System.Drawing.Point(12, 272);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(75, 23);
             this.btnGuardar.TabIndex = 1;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // btnFechar
             // 
-            this.btnFechar.Location = new System.Drawing.Point(595, 307);
+            this.btnFechar.Location = new System.Drawing.Point(593, 272);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(75, 23);
             this.btnFechar.TabIndex = 2;
             this.btnFechar.Text = "Fechar";
             this.btnFechar.UseVisualStyleBackColor = true;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // frmEditarEmpregado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(689, 342);
+            this.ClientSize = new System.Drawing.Size(680, 307);
             this.Controls.Add(this.btnFechar);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.groupBox1);
