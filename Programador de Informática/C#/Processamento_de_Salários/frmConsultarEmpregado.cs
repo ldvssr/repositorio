@@ -32,18 +32,7 @@ namespace Processamento_de_Salários
 
         private void frmConsultarEmpregado_Load(object sender, EventArgs e)
         {
-            var empregados = this.empregados;
-
-            if (empregados == null)
-            {
-                MessageBox.Show("Sem dados para mostrar...");
-                this.Close();
-            }
-
-            dataGridView1.DataSource = empregados;
-
-            dataGridView1.Columns["Referencia"].Visible = false;
-
+            LerLista();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -60,9 +49,10 @@ namespace Processamento_de_Salários
                 fee.ShowDialog();
 
 
-                MessageBox.Show(selectedRow.Nome);
+                this.empregados = GetEmpregados();
 
-            
+                LerLista();
+                            
             }
             catch (Exception ex)
             {
@@ -70,6 +60,23 @@ namespace Processamento_de_Salários
                 
             }
         }
+
+        private void LerLista()
+        {
+            var empregados = this.empregados;
+
+            if (empregados == null)
+            {
+                MessageBox.Show("Sem dados para mostrar...");
+                this.Close();
+            }
+
+            dataGridView1.DataSource = empregados;
+
+            dataGridView1.Columns["Referencia"].Visible = false;
+        }
+
+
 
         private void button2_Click(object sender, EventArgs e)
         {

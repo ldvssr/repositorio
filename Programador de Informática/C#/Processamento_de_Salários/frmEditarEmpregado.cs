@@ -52,6 +52,9 @@ namespace Processamento_de_Salários
             Handler handler = new Handler();
             handler.AlterarEmpregado(emp, oldref);
 
+            MessageBox.Show("O registo foi alterado...");
+
+            this.Close();
         }
 
         private void btnFechar_Click(object sender, EventArgs e)

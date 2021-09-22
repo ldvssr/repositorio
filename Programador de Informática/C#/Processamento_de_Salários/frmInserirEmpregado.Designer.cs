@@ -55,7 +55,7 @@ namespace Processamento_de_Salários
             this.pnl.Controls.Add(this.btnCancelar);
             this.pnl.Controls.Add(this.btnRegistar);
             this.pnl.Location = new System.Drawing.Point(11, 231);
-            this.pnl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnl.Margin = new System.Windows.Forms.Padding(2);
             this.pnl.Name = "pnl";
             this.pnl.Size = new System.Drawing.Size(658, 65);
             this.pnl.TabIndex = 0;
@@ -63,18 +63,18 @@ namespace Processamento_de_Salários
             // btnCancelar
             // 
             this.btnCancelar.Location = new System.Drawing.Point(418, 15);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(107, 39);
             this.btnCancelar.TabIndex = 1;
-            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.Text = "Fechar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnRegistar
             // 
             this.btnRegistar.Location = new System.Drawing.Point(112, 15);
-            this.btnRegistar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRegistar.Margin = new System.Windows.Forms.Padding(2);
             this.btnRegistar.Name = "btnRegistar";
             this.btnRegistar.Size = new System.Drawing.Size(107, 39);
             this.btnRegistar.TabIndex = 0;
@@ -98,9 +98,9 @@ namespace Processamento_de_Salários
             this.gbInserirEmpregado.Controls.Add(this.lblReferencia);
             this.gbInserirEmpregado.Controls.Add(this.lblNome);
             this.gbInserirEmpregado.Location = new System.Drawing.Point(11, 11);
-            this.gbInserirEmpregado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbInserirEmpregado.Margin = new System.Windows.Forms.Padding(2);
             this.gbInserirEmpregado.Name = "gbInserirEmpregado";
-            this.gbInserirEmpregado.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbInserirEmpregado.Padding = new System.Windows.Forms.Padding(2);
             this.gbInserirEmpregado.Size = new System.Drawing.Size(658, 216);
             this.gbInserirEmpregado.TabIndex = 1;
             this.gbInserirEmpregado.TabStop = false;
@@ -109,7 +109,7 @@ namespace Processamento_de_Salários
             // tbNISS
             // 
             this.tbNISS.Location = new System.Drawing.Point(112, 131);
-            this.tbNISS.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbNISS.Margin = new System.Windows.Forms.Padding(2);
             this.tbNISS.Name = "tbNISS";
             this.tbNISS.Size = new System.Drawing.Size(413, 23);
             this.tbNISS.TabIndex = 11;
@@ -117,7 +117,7 @@ namespace Processamento_de_Salários
             // tbNIF
             // 
             this.tbNIF.Location = new System.Drawing.Point(112, 109);
-            this.tbNIF.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbNIF.Margin = new System.Windows.Forms.Padding(2);
             this.tbNIF.Name = "tbNIF";
             this.tbNIF.Size = new System.Drawing.Size(413, 23);
             this.tbNIF.TabIndex = 10;
@@ -125,7 +125,7 @@ namespace Processamento_de_Salários
             // tbDescIRS
             // 
             this.tbDescIRS.Location = new System.Drawing.Point(112, 87);
-            this.tbDescIRS.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbDescIRS.Margin = new System.Windows.Forms.Padding(2);
             this.tbDescIRS.Name = "tbDescIRS";
             this.tbDescIRS.Size = new System.Drawing.Size(413, 23);
             this.tbDescIRS.TabIndex = 9;
@@ -133,7 +133,7 @@ namespace Processamento_de_Salários
             // tbOrdenado
             // 
             this.tbOrdenado.Location = new System.Drawing.Point(112, 64);
-            this.tbOrdenado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbOrdenado.Margin = new System.Windows.Forms.Padding(2);
             this.tbOrdenado.Name = "tbOrdenado";
             this.tbOrdenado.Size = new System.Drawing.Size(413, 23);
             this.tbOrdenado.TabIndex = 8;
@@ -181,7 +181,7 @@ namespace Processamento_de_Salários
             // tbNome
             // 
             this.tbNome.Location = new System.Drawing.Point(112, 41);
-            this.tbNome.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbNome.Margin = new System.Windows.Forms.Padding(2);
             this.tbNome.Name = "tbNome";
             this.tbNome.Size = new System.Drawing.Size(413, 23);
             this.tbNome.TabIndex = 3;
@@ -189,7 +189,7 @@ namespace Processamento_de_Salários
             // tbReferencia
             // 
             this.tbReferencia.Location = new System.Drawing.Point(112, 18);
-            this.tbReferencia.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbReferencia.Margin = new System.Windows.Forms.Padding(2);
             this.tbReferencia.Name = "tbReferencia";
             this.tbReferencia.Size = new System.Drawing.Size(413, 23);
             this.tbReferencia.TabIndex = 2;

@@ -82,6 +82,17 @@ namespace Processamento_de_Salários
 
             File.WriteAllText(path, registo);
 
+            foreach (string s in listaempregados)
+            {
+                string[] temp = s.Split(';');
+
+                if (temp[0] != oldref)
+                {
+                    File.AppendAllText(path, s + "\n");
+                }
+
+            }
+
         }
 
     }
