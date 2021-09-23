@@ -1,0 +1,13 @@
+C:\Users\marga\source\repos\Salarios_formacao\Salarios_formacao\obj\Debug\Salarios_formacao.csprojAssemblyReference.cache
+C:\Users\marga\source\repos\Salarios_formacao\Salarios_formacao\obj\Debug\Salarios_formacao.Form1.resources
+C:\Users\marga\source\repos\Salarios_formacao\Salarios_formacao\obj\Debug\Salarios_formacao.frmInserirOperario.resources
+C:\Users\marga\source\repos\Salarios_formacao\Salarios_formacao\obj\Debug\Salarios_formacao.Properties.Resources.resources
+C:\Users\marga\source\repos\Salarios_formacao\Salarios_formacao\obj\Debug\Salarios_formacao.csproj.GenerateResource.cache
+C:\Users\marga\source\repos\Salarios_formacao\Salarios_formacao\obj\Debug\Salarios_formacao.csproj.CoreCompileInputs.cache
+C:\Users\marga\source\repos\Salarios_formacao\Salarios_formacao\bin\Debug\Salarios_formacao.exe.config
+C:\Users\marga\source\repos\Salarios_formacao\Salarios_formacao\bin\Debug\Salarios_formacao.exe
+C:\Users\marga\source\repos\Salarios_formacao\Salarios_formacao\bin\Debug\Salarios_formacao.pdb
+C:\Users\marga\source\repos\Salarios_formacao\Salarios_formacao\obj\Debug\Salarios_formacao.exe
+C:\Users\marga\source\repos\Salarios_formacao\Salarios_formacao\obj\Debug\Salarios_formacao.pdb
+C:\Users\marga\source\repos\Salarios_formacao\Salarios_formacao\obj\Debug\Salarios_formacao.frmConsultarEmpregado.resources
+C:\Users\marga\source\repos\Salarios_formacao\Salarios_formacao\obj\Debug\Salarios_formacao.frmEditarEmpregado.resources
