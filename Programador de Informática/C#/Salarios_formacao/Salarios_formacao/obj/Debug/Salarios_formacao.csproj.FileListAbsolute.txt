@@ -11,3 +11,16 @@ C:\Users\marga\source\repos\Salarios_formacao\Salarios_formacao\obj\Debug\Salari
 C:\Users\marga\source\repos\Salarios_formacao\Salarios_formacao\obj\Debug\Salarios_formacao.pdb
 C:\Users\marga\source\repos\Salarios_formacao\Salarios_formacao\obj\Debug\Salarios_formacao.frmConsultarEmpregado.resources
 C:\Users\marga\source\repos\Salarios_formacao\Salarios_formacao\obj\Debug\Salarios_formacao.frmEditarEmpregado.resources
+C:\repositorio\Programador de Informática\C#\Salarios_formacao\Salarios_formacao\bin\Debug\Salarios_formacao.exe.config
+C:\repositorio\Programador de Informática\C#\Salarios_formacao\Salarios_formacao\bin\Debug\Salarios_formacao.exe
+C:\repositorio\Programador de Informática\C#\Salarios_formacao\Salarios_formacao\bin\Debug\Salarios_formacao.pdb
+C:\repositorio\Programador de Informática\C#\Salarios_formacao\Salarios_formacao\obj\Debug\Salarios_formacao.csproj.AssemblyReference.cache
+C:\repositorio\Programador de Informática\C#\Salarios_formacao\Salarios_formacao\obj\Debug\Salarios_formacao.Form1.resources
+C:\repositorio\Programador de Informática\C#\Salarios_formacao\Salarios_formacao\obj\Debug\Salarios_formacao.frmConsultarEmpregado.resources
+C:\repositorio\Programador de Informática\C#\Salarios_formacao\Salarios_formacao\obj\Debug\Salarios_formacao.frmEditarEmpregado.resources
+C:\repositorio\Programador de Informática\C#\Salarios_formacao\Salarios_formacao\obj\Debug\Salarios_formacao.frmInserirOperario.resources
+C:\repositorio\Programador de Informática\C#\Salarios_formacao\Salarios_formacao\obj\Debug\Salarios_formacao.Properties.Resources.resources
+C:\repositorio\Programador de Informática\C#\Salarios_formacao\Salarios_formacao\obj\Debug\Salarios_formacao.csproj.GenerateResource.cache
+C:\repositorio\Programador de Informática\C#\Salarios_formacao\Salarios_formacao\obj\Debug\Salarios_formacao.csproj.CoreCompileInputs.cache
+C:\repositorio\Programador de Informática\C#\Salarios_formacao\Salarios_formacao\obj\Debug\Salarios_formacao.exe
+C:\repositorio\Programador de Informática\C#\Salarios_formacao\Salarios_formacao\obj\Debug\Salarios_formacao.pdb
