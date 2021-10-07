@@ -4,10 +4,15 @@
 #include <stdlib.h>
 #include <time.h>
 
+#define COLUNAS 8
+#define LINHAS 6
+#define POSICOES 3
+
 #pragma warning (disable: 4996)
 
+//criação da struct.
 struct Node {
-	int data[5];
+	int data[POSICOES];
 	struct Node* next;
 };
 

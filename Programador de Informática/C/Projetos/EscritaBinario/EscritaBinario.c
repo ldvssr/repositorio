@@ -6,7 +6,7 @@ Descrição:
 */
 #include <stdio.h>
 #pragma warning(disable:4996)
-int main1()
+int main2()
 {
 	FILE* af;
 	char* nomeFicheiro = "temperaturas.dat";
@@ -17,7 +17,7 @@ int main1()
 		printf("\nTemperatura do dia %d", i + 1);
 		scanf("%lf", &temperaturas[i]);
 	}
-	af = fopen(nomeFicheiro, "wb");
+	af = fopen(nomeFicheiro, "w");
 	if (af == NULL)
 	{
 		printf("Ocorreu um erro meu caro");

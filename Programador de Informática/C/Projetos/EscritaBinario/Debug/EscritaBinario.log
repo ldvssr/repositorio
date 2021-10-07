@@ -1,11 +1,6 @@
-﻿  ListasSimples2.c
-C:\github\repositorio\Programador de Informática\C\Projetos\EscritaBinario\ListasSimples2.c(26,18): warning C4133: '=': tipos incompatíveis - de 'Node *' para 'Node *'
-C:\github\repositorio\Programador de Informática\C\Projetos\EscritaBinario\ListasSimples2.c(34,18): warning C4133: '=': tipos incompatíveis - de 'Node *' para 'Node *'
-C:\github\repositorio\Programador de Informática\C\Projetos\EscritaBinario\ListasSimples2.c(49,21): warning C4133: '=': tipos incompatíveis - de 'Node *' para 'Node *'
-C:\github\repositorio\Programador de Informática\C\Projetos\EscritaBinario\ListasSimples2.c(51,23): warning C4133: '=': tipos incompatíveis - de 'Node *' para 'Node *'
-C:\github\repositorio\Programador de Informática\C\Projetos\EscritaBinario\ListasSimples2.c(62,20): warning C4133: '=': tipos incompatíveis - de 'Node *' para 'Node *'
-C:\github\repositorio\Programador de Informática\C\Projetos\EscritaBinario\ListasSimples2.c(73,26): warning C4133: '=': tipos incompatíveis - de 'Node *' para 'Node *'
-C:\github\repositorio\Programador de Informática\C\Projetos\EscritaBinario\ListasSimples2.c(83,20): warning C4133: '=': tipos incompatíveis - de 'Node *' para 'Node *'
-C:\github\repositorio\Programador de Informática\C\Projetos\EscritaBinario\ListasSimples2.c(90,20): warning C4133: '=': tipos incompatíveis - de 'Node *' para 'Node *'
-C:\github\repositorio\Programador de Informática\C\Projetos\EscritaBinario\ListasSimples2.c(130,8): warning C4013: 'getche' indefinido; assumindo extern retornando int
-  EscritaBinario.vcxproj -> C:\github\repositorio\Programador de Informática\C\Projetos\EscritaBinario\Debug\EscritaBinario.exe
+﻿  EscritaBinario.c
+C:\repositorio\Programador de Informática\C\Projetos\EscritaBinario\EscritaBinario.c(38,8): warning C4013: 'getche' indefinido; assumindo extern retornando int
+  LeituraBinario.c
+C:\repositorio\Programador de Informática\C\Projetos\EscritaBinario\LeituraBinario.c(33,8): warning C4013: 'getche' indefinido; assumindo extern retornando int
+  Gerando Código...
+  EscritaBinario.vcxproj -> C:\repositorio\Programador de Informática\C\Projetos\EscritaBinario\Debug\EscritaBinario.exe

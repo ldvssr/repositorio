@@ -6,7 +6,7 @@ Descrição:
 */
 #include <stdio.h>
 #pragma warning(disable:4996)
-int main2()
+int main()
 {
 	FILE* af;
 	char* nomeFicheiro = "temperaturas.dat";

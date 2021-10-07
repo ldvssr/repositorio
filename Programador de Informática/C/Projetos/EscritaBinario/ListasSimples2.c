@@ -94,7 +94,7 @@ void deleteNode(int key)
 	free(temp);
 }
 
-int main()
+int main6()
 {
 	insertEnd(10);
 	insertEnd(20);

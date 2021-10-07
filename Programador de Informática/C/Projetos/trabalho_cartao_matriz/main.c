@@ -1,8 +1,8 @@
 /*
-* Autor: Licínio Daniel 
-* Data: 16 de setembro de 2021
-* Versão: 1.0
-* E-mail: ldvssr@icloud.com
+* Autor: João Guimarães/ Licínio Daniel 
+* Data: 14 de setembro de 2021
+* Versão: 2.0
+* E-mail: joaopguimaraes@gmail.com/ ldvssr@icloud.com
 * Descrição: Trabalho Cartão Matriz
 * Observações: 
 */
@@ -14,8 +14,7 @@ int main()
 {
 	setlocale(LC_ALL, "Portuguese");
 	srand(time(NULL));
-	insert(RandomNum(10), RandomNum(10), RandomNum(10), RandomNum(10), RandomNum(10));
-	//printf("%d %d %d %d %d", temp->data[0],temp->data[1],temp->data[2],temp->data[3],temp->data[4]);
+	insert( RandomNum(10), RandomNum(10), RandomNum(10), RandomNum(10), RandomNum(10)); //modificar ---> chamar função consoante 
 	CriarCartao();
 	EscolheNumLetra();
 	
