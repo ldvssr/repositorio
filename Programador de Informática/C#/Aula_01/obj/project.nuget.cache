@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "g0cTAagwJcBub1ak0YNw6vmO/O3XckfEpFl5s8vgGE/eKxJgL0LgnM96QCuUzIqAgyrs4qQiLffrzjIMVWmGtg==",
+  "dgSpecHash": "pWXLhngBGerWDhCzrmimbOK2jNw+HFato5WuSgICTOVggmemXXV5gJdPvukRhKYF0niirCWrxRDakt3MPfaktw==",
   "success": true,
-  "projectFilePath": "C:\\github\\repositorio\\Programador de Informática\\C#\\Aula_01\\Aula_01.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\repositorio\\Programador de Informática\\C#\\Aula_01\\Aula_01.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Utilizador\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
   "logs": []
 }
