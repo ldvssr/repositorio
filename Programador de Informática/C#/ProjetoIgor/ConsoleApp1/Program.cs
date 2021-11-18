@@ -13,7 +13,7 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello World!");
             //connection string
-            string connStr = "server=localhost;user=root;database=basededadoscompletamentenova;port=3306;password=12345";
+            string connStr = "server=localhost;user=root;database=casamento;port=3306;password=12345";
 
             MySqlConnection conn = new MySqlConnection(connStr);
 
@@ -22,7 +22,7 @@ namespace ConsoleApp1
                 Console.WriteLine("A conectar a base de dados");
                 conn.Open(); //abrir a conexao a base de dados
 
-                string sql = "SELECT * FROM tabelacompletamentenova";
+                string sql = "SELECT * FROM convidados";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 MySqlDataReader reader = cmd.ExecuteReader();
 
