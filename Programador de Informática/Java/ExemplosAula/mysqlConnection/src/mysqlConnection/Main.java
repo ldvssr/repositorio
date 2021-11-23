@@ -21,7 +21,7 @@ public class Main {
     	MysqlManipulate mysqlMap = new MysqlManipulate();
     	conn = mysqlMap.connect(dbURL, username, password);
     	mysqlMap.select(conn);
-    	mysqlMap.insert(conn);
+    	//mysqlMap.insert(conn);
     	//
 	}
 

@@ -31,7 +31,7 @@ public class MysqlManipulate {
 	
 	public List<String> select(Connection conn) {
 	
-		String sql = "SELECT * FROM Cliente";
+		String sql = "SELECT * FROM Filmes";
 		 List<String> lstModel = new ArrayList<>();
 		Statement statement;
 		try {
@@ -47,8 +47,8 @@ public class MysqlManipulate {
 			
 			while (result.next()){
 				
-					String name = result.getString("nome");
-				    System.out.println(result.getString("id") + " " + name + " " +result.getString("horaChegada") + " " +result.getString("minutoChegada"));
+					String name = result.getString("nomeFilme");
+				    System.out.println(result.getString("id") + " " + name + " " +result.getString("horaFilme") + " " +result.getString("minutoFilme"));
 				    lstModel.add(name);	
 				
 			    
@@ -74,10 +74,10 @@ public class MysqlManipulate {
 		try {
 			preparedStmt = conn.prepareStatement(sql);
 			
-				 preparedStmt.setString (1, "7");
-			     preparedStmt.setString (2, "darth vader");
-			     preparedStmt.setString (3, "00");
-			     preparedStmt.setString (4, "15");
+				 preparedStmt.setString (1, "8");
+			     preparedStmt.setString (2, "darth maul");
+			     preparedStmt.setString (3, "02");
+			     preparedStmt.setString (4, "00");
 			     
 
 			      // execute the preparedstatement
