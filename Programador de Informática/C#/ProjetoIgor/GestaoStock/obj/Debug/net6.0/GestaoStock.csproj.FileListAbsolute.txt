@@ -1,0 +1,15 @@
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\GestaoStock\bin\Debug\net6.0\GestaoStock.exe
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\GestaoStock\bin\Debug\net6.0\GestaoStock.deps.json
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\GestaoStock\bin\Debug\net6.0\GestaoStock.runtimeconfig.json
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\GestaoStock\bin\Debug\net6.0\GestaoStock.dll
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\GestaoStock\bin\Debug\net6.0\ref\GestaoStock.dll
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\GestaoStock\bin\Debug\net6.0\GestaoStock.pdb
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\GestaoStock\obj\Debug\net6.0\GestaoStock.csproj.AssemblyReference.cache
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\GestaoStock\obj\Debug\net6.0\GestaoStock.GeneratedMSBuildEditorConfig.editorconfig
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\GestaoStock\obj\Debug\net6.0\GestaoStock.AssemblyInfoInputs.cache
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\GestaoStock\obj\Debug\net6.0\GestaoStock.AssemblyInfo.cs
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\GestaoStock\obj\Debug\net6.0\GestaoStock.csproj.CoreCompileInputs.cache
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\GestaoStock\obj\Debug\net6.0\GestaoStock.dll
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\GestaoStock\obj\Debug\net6.0\ref\GestaoStock.dll
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\GestaoStock\obj\Debug\net6.0\GestaoStock.pdb
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\GestaoStock\obj\Debug\net6.0\GestaoStock.genruntimeconfig.cache
