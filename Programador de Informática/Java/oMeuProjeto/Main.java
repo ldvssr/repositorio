@@ -11,6 +11,8 @@ public class Main
 		cl.Impressao();
 		cl.Leitura();		
 		cl.Escrita();
-				
+		
+		// TODO: CriarBaseDeDados, CriarTabela, InserirNaTabela, ConsultarTabela, EliminarDaTabela, EliminarTabela, EliminarBaseDeDados.
+		
 	}
 }
