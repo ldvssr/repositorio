@@ -1,0 +1,15 @@
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\MiniCurso\bin\Debug\net6.0\MiniCurso.exe
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\MiniCurso\bin\Debug\net6.0\MiniCurso.deps.json
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\MiniCurso\bin\Debug\net6.0\MiniCurso.runtimeconfig.json
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\MiniCurso\bin\Debug\net6.0\MiniCurso.dll
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\MiniCurso\bin\Debug\net6.0\ref\MiniCurso.dll
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\MiniCurso\bin\Debug\net6.0\MiniCurso.pdb
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\MiniCurso\obj\Debug\net6.0\MiniCurso.csproj.AssemblyReference.cache
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\MiniCurso\obj\Debug\net6.0\MiniCurso.GeneratedMSBuildEditorConfig.editorconfig
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\MiniCurso\obj\Debug\net6.0\MiniCurso.AssemblyInfoInputs.cache
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\MiniCurso\obj\Debug\net6.0\MiniCurso.AssemblyInfo.cs
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\MiniCurso\obj\Debug\net6.0\MiniCurso.csproj.CoreCompileInputs.cache
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\MiniCurso\obj\Debug\net6.0\MiniCurso.dll
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\MiniCurso\obj\Debug\net6.0\ref\MiniCurso.dll
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\MiniCurso\obj\Debug\net6.0\MiniCurso.pdb
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\MiniCurso\obj\Debug\net6.0\MiniCurso.genruntimeconfig.cache
