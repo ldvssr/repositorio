@@ -1,0 +1,7 @@
+		String dbURL = "jdbc:mysql://vpn.fjalves.xyz:3306/mariaRibeiro";
+		String username = "mariaRibeiro";
+		String password = "tzfkxp1xs";
+		
+		String dbURL = "jdbc:mysql://localhost:3306/mariaRibeiro";
+	    String username = "root";
+	    String password = "RochaRibeiro1964";
