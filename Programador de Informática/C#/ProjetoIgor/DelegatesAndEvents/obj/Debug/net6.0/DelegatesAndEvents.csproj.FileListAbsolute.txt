@@ -1,0 +1,15 @@
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\DelegatesAndEvents\bin\Debug\net6.0\DelegatesAndEvents.exe
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\DelegatesAndEvents\bin\Debug\net6.0\DelegatesAndEvents.deps.json
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\DelegatesAndEvents\bin\Debug\net6.0\DelegatesAndEvents.runtimeconfig.json
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\DelegatesAndEvents\bin\Debug\net6.0\DelegatesAndEvents.dll
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\DelegatesAndEvents\bin\Debug\net6.0\ref\DelegatesAndEvents.dll
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\DelegatesAndEvents\bin\Debug\net6.0\DelegatesAndEvents.pdb
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\DelegatesAndEvents\obj\Debug\net6.0\DelegatesAndEvents.csproj.AssemblyReference.cache
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\DelegatesAndEvents\obj\Debug\net6.0\DelegatesAndEvents.GeneratedMSBuildEditorConfig.editorconfig
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\DelegatesAndEvents\obj\Debug\net6.0\DelegatesAndEvents.AssemblyInfoInputs.cache
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\DelegatesAndEvents\obj\Debug\net6.0\DelegatesAndEvents.AssemblyInfo.cs
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\DelegatesAndEvents\obj\Debug\net6.0\DelegatesAndEvents.csproj.CoreCompileInputs.cache
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\DelegatesAndEvents\obj\Debug\net6.0\DelegatesAndEvents.dll
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\DelegatesAndEvents\obj\Debug\net6.0\ref\DelegatesAndEvents.dll
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\DelegatesAndEvents\obj\Debug\net6.0\DelegatesAndEvents.pdb
+C:\repositorio\Programador de Informática\C#\ProjetoIgor\DelegatesAndEvents\obj\Debug\net6.0\DelegatesAndEvents.genruntimeconfig.cache
