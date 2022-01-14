@@ -17,7 +17,7 @@
             die ("Erro na ligação" . mysql_connect_error());
         }
 
-        $sql = "UPDATE T_CLIENTE SET
+        $sql = "UPDATE t_cliente SET
         nome='$_POST[nome]',
         morada='$_POST[morada]',
         zona='$_POST[zona]',
