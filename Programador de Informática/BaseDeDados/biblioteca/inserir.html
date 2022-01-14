@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="utf-8">
+        <title>Gestão de Livros</title>
+    </head>
+    <body>
+        <h1>Inserir Livros</h1>
+        <hr>
+        <!-- O método POST envia os dados de uma página para a outra de forma escondida
+         o método GET envia os dados para a página seguinte pela barra de endereço -->
+        <form action="inserir.php" method="post">
+            Título:<input type="text" name="titulo" size="40" required><br><br>
+            Número de Páginas:<input type="text" name="numpag" size="11"><br><br>
+            Texto Descritivo:<input type="text" name="textdescr" size="255"><br><br>
+            Peso (kb):<input type="text" name="pesokb" size="6" required><br><br>
+            Autor:<input type="text" name="autor" size="20"><br><br>
+            <input type="submit" value="Inserir">
+            <input type="reset" value="Limpar">
+            <br><br>
+            <input type="button" value="Voltar ao Menu" onclick="window.history.go(-1);">            
+            <!-- <a href="index.html" target="_self">Gestão de Livros</a><br><br> -->
+        </form>
+    </body>
+</html>
