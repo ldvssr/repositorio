@@ -10,7 +10,7 @@
     <form action="alterar2.php" method="post">
     <p>Qual é o livro a alterar?: <select name="cp_id">
     <?php
-    $ligacao = mysqli_connect("127.0.0.1","root","12345","biblioteca");
+    $ligacao = mysqli_connect("localhost","id18241934_root","FAx1qWM)d0F^Z}5>","id18241934_biblioteca");
     if (!$ligacao)
     {
         die ("Erro na ligação" . mysql_connect_error());

@@ -1,4 +1,5 @@
-﻿<html>
+﻿<!DOCTYPE html>
+<html>
     <head>
         <meta charset="utf-8">
         <title>Gestão de Livros</title>
@@ -7,7 +8,7 @@
         <h1>Listagem de Livros</h1>
         <hr>
         <?php
-             $ligacao = mysqli_connect("127.0.0.1","root","12345","biblioteca");
+             $ligacao = mysqli_connect("localhost","id18241934_root","FAx1qWM)d0F^Z}5>","id18241934_biblioteca");
              if ($ligacao->connect_error)
                  die(mysqli_error($ligacao)); 
              $consulta ="SELECT * FROM manuais";

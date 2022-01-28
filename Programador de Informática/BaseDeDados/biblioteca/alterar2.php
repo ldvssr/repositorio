@@ -9,7 +9,7 @@
         <hr>
         <?php
             $cp_id=$_POST['cp_id'];
-            $ligacao = mysqli_connect("127.0.0.1","root","12345","biblioteca");
+            $ligacao = mysqli_connect("localhost","id18241934_root","FAx1qWM)d0F^Z}5>","id18241934_biblioteca");
             if ($ligacao->connect_error)
                 die(mysqli_error($ligacao));
             $sql ="SELECT * FROM manuais WHERE id=" . $cp_id;

@@ -9,11 +9,19 @@
         <h1>Inserir Livros</h1>
         <hr>      
         <?php
-            $ligacao = mysqli_connect("127.0.0.1","root","12345","biblioteca");
+            $ligacao = mysqli_connect("localhost","id18241934_root","FAx1qWM)d0F^Z}5>","id18241934_biblioteca");
             if ($ligacao->connect_error)
                 die(mysqli_error($ligacao));
-            $sql = "INSERT INTO manuais (titulo, numpag, textdescr, pesokb, autor) VALUES
+            //if(trim($_POST['numpag'])==NULL && $_POST['pesokb']==NULL && $_POST['autor']==NULL)
+            //{
+            //    $sql = "INSERT INTO manuais (titulo, numpag, textdescr, pesokb, autor) VALUES
+            //    ('$_POST[titulo]','$_POST[numpag]','$_POST[textdescr]','$_POST[pesokb]','$_POST[autor]')";
+            //}
+            //else
+            //{
+                $sql = "INSERT INTO manuais (titulo, numpag, textdescr, pesokb, autor) VALUES
                 ('$_POST[titulo]','$_POST[numpag]','$_POST[textdescr]','$_POST[pesokb]','$_POST[autor]')";
+            //} 
             if (mysqli_query($ligacao, $sql))
                 echo "<h3>Cliente inserido com sucesso!</h3>";
             mysqli_close($ligacao);
