@@ -1,0 +1,36 @@
+﻿@model _01_Adivinhas.Models.Adivinhas
+
+@{
+    ViewData["Title"] = "Resposta";
+}
+
+<h1>Resposta</h1>
+
+<div>
+    <h4>Adivinhas</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.id)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.pergunta)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.pergunta)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.resposta)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.resposta)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>

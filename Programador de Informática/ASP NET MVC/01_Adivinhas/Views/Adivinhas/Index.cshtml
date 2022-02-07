@@ -1,0 +1,47 @@
+﻿@model IEnumerable<_01_Adivinhas.Models.Adivinhas>
+
+@{
+    ViewData["Title"] = "Adivinhas";
+}
+
+<h2>Lista de Adivinhas</h2>
+
+<p>
+    <a asp-action="Create">Criar Nova</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.pergunta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.resposta)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.pergunta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.resposta)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Detalhes", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

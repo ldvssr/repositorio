@@ -1,0 +1,34 @@
+﻿@model IEnumerable<_01_Adivinhas.Models.Adivinhas>
+
+@{
+ViewData["Title"] = "Jogo de Adivinhas";
+}
+
+
+
+<h2>Adivinhe a resposta</h2>
+
+
+
+<form asp-action="Resposta">
+
+
+
+<select id="adivinha" name="adivinha">
+<option value="0"></option>
+@foreach(var item in Model)
+{
+<option value="@item.id">@item.pergunta</option>
+}
+
+
+
+</select>
+
+
+
+<button type="submit" class="btn btn-primary">Ver resposta</button>
+
+
+
+</form>
