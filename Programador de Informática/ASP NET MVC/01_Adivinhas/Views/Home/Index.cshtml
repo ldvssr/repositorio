@@ -1,34 +1,24 @@
 ﻿@model IEnumerable<_01_Adivinhas.Models.Adivinhas>
 
 @{
-ViewData["Title"] = "Jogo de Adivinhas";
+    ViewData["Title"] = "Index - ";
 }
 
+<div class="text-center">
+    <h1 class="display-4">Welcome to "Adivinhas" Website</h1>
+</div>
+    <h2>Tente acertar na resposta certa!</h2>
+
+    <form asp-action="Resposta">
+        <select>
+            <option value="0"></option>
+            @foreach(var item in Model)
+            {
+                <option value="@item.id">@item.pergunta</option>
+            }
+        </select>
+
+        <button type="submit" class="btn btn-primary">Ver solução</button>
+    </form>
 
 
-<h2>Adivinhe a resposta</h2>
-
-
-
-<form asp-action="Resposta">
-
-
-
-<select id="adivinha" name="adivinha">
-<option value="0"></option>
-@foreach(var item in Model)
-{
-<option value="@item.id">@item.pergunta</option>
-}
-
-
-
-</select>
-
-
-
-<button type="submit" class="btn btn-primary">Ver resposta</button>
-
-
-
-</form>

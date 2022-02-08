@@ -32,26 +32,36 @@ namespace _01_Adivinhas.Repository
             return data;
         }
 
-        public void Add(Adivinhas item)
+        public void Add(Adivinhas _adv)
         {
-
             var id = 0;
+            //verifica se ja existe alguma info na BD (ficheiro JSON)
             if (data.Any())
             {
-                id = data.Max(x => x.id);
+                id = data.Max(value => value.id);
             }
+            //incrementa o id
+            _adv.id = id++;
 
-            item.id = id + 1;
-
-            data.Add(item);
+            data.Add(_adv);
+            //gravar no ficheiro JSON
             SaveDataBase();
-
         }
 
-        public Adivinhas ListById(int id)
+
+        public Adivinhas ListById(int _id)
         {
-            return data.FirstOrDefault(x => x.id == id);
+            return data.FirstOrDefault(value => value.id == _id);
+        }
+
+        public void Update(Adivinhas item)
+        {
+            var dbItem = data.FirstOrDefault(x => x.id == item.id);
+            if (dbItem == null)
+                throw new KeyNotFoundException(item.id.ToString());
+            dbItem.pergunta = item.pergunta;
+            dbItem.resposta = item.resposta;
+            SaveDataBase();
         }
     }
-
 }

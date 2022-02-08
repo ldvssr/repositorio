@@ -1,4 +1,8 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace _01_Adivinhas.Models
 {
@@ -6,23 +10,20 @@ namespace _01_Adivinhas.Models
     {
         public int id { get; set; }
 
-        [Required(ErrorMessage = "Anedota obrigatória")]
-        [Display(Name = "Anedota")]
+        [Display(Name="Anedota")]
         public string anedota { get; set; }
 
-        //[Display(Name = "Resposta")]
-        //public string resposta { get; set; }
-
-        public Anedotas(int _id, string _pergunta /*, string _resposta*/)
+        public Anedotas(int _id, string _anedota)
         {
             this.id = _id;
-            this.anedota = _pergunta;
-            //this.resposta = _resposta;
+            this.anedota = _anedota;
         }
 
         public Anedotas()
         {
 
         }
+
+
     }
 }

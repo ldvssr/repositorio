@@ -1,59 +1,51 @@
 ﻿using _01_Adivinhas.Models;
 using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace _01_Adivinhas.Repository
 {
     public class AnedotasRepository
     {
-        private List<Anedotas> data;
+        private List<Anedotas> listAnedotasData;
 
         public AnedotasRepository()
         {
-            data = new List<Anedotas>();
+            listAnedotasData = new List<Anedotas>();
+
             if (File.Exists("Anedotas.json"))
             {
-                data = JsonConvert.DeserializeObject<List<Anedotas>>(File.ReadAllText("Anedotas.json"));
+                listAnedotasData = JsonConvert.DeserializeObject<List<Anedotas>>(File.ReadAllText("Anedotas.json"));
             }
-
         }
 
-        private void SaveDataBase()
+        private void SaveDataBase() 
         {
-            File.WriteAllText("Anedotas.json", JsonConvert.SerializeObject(data));
+            File.WriteAllText("Anedotas.json", JsonConvert.SerializeObject(listAnedotasData));
         }
 
-        public List<Anedotas> ListAll()
+        public List<Anedotas> ListAll() 
         {
-            return data;
+            return listAnedotasData;
         }
 
-        public void Add(Anedotas item)
+        public void Add(Anedotas _ane) 
         {
-
             var id = 0;
-            if (data.Any())
+
+            if (listAnedotasData.Any())
             {
-                id = data.Max(x => x.id);
+                id = listAnedotasData.Max(element => element.id);
             }
-
-            item.id = id + 1;
-
-            data.Add(item);
+            _ane.id++;
+            listAnedotasData.Add(_ane);
             SaveDataBase();
-
         }
 
-        internal void Add(object anedota)
-        {
-            throw new System.NotImplementedException();
-        }
 
-        public Anedotas ListById(int id)
-        {
-            return data.FirstOrDefault(x => x.id == id);
-        }
+
     }
 }

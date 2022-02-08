@@ -1,22 +1,24 @@
-﻿using _01_Adivinhas.Models;
+﻿
+using _01_Adivinhas.Models;
 using _01_Adivinhas.Repository;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace _01_Adivinhas.Controllers
 {
     public class AnedotasController : Controller
     {
-
-        private AnedotasRepository anr = new AnedotasRepository();
-        private Anedotas anedota;
+        private AnedotasRepository anRepo = new AnedotasRepository();
 
         // GET: AnedotasController
         public ActionResult Index()
         {
-            List<Anedotas> adv = anr.ListAll();
-            return View(adv);
+            List<Anedotas> an = anRepo.ListAll();
+            return View(an);
         }
 
         // GET: AnedotasController/Details/5
@@ -34,11 +36,11 @@ namespace _01_Adivinhas.Controllers
         // POST: AnedotasController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(Anedotas _aned)
         {
             try
             {
-                anr.Add(anedota);
+                anRepo.Add(_aned);
                 return RedirectToAction(nameof(Index));
             }
             catch

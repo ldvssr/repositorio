@@ -2,20 +2,21 @@
 using _01_Adivinhas.Repository;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace _01_Adivinhas.Controllers
 {
     public class AdivinhasController : Controller
     {
-
         private AdivinhasRepository ar = new AdivinhasRepository();
-        
+
         // GET: AdivinhasController
         public ActionResult Index()
         {
             List<Adivinhas> adv = ar.ListAll();
-
             return View(adv);
         }
 
@@ -34,11 +35,11 @@ namespace _01_Adivinhas.Controllers
         // POST: AdivinhasController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(Adivinhas adivinha)
+        public ActionResult Create(Adivinhas _adv)
         {
             try
             {
-                ar.Add(adivinha);
+                ar.Add(_adv);
                 return RedirectToAction(nameof(Index));
             }
             catch
@@ -50,16 +51,19 @@ namespace _01_Adivinhas.Controllers
         // GET: AdivinhasController/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            Adivinhas adv = ar.ListById(id);
+            return View(adv);
         }
 
         // POST: AdivinhasController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(Adivinhas adv)
         {
             try
             {
+                ar.Update(adv);
+
                 return RedirectToAction(nameof(Index));
             }
             catch

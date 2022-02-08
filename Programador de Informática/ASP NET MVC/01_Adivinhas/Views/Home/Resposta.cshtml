@@ -4,9 +4,17 @@
     ViewData["Title"] = "Resposta";
 }
 
-<h1>Resposta</h1>
+<link href="~/css/myCss.css" rel="stylesheet" />
 
-<div>
+<h2>Resposta</h2>
+
+<h3 class="titulo">Pergunta</h3>
+<h4 id ="pergunta" class="fundo">@Model.pergunta</h4>
+
+<h3 class="titulo">Resposta</h3>
+<h4 id="resposta" class="fundo">@Model.resposta</h4>
+
+@*<div>
     <h4>Adivinhas</h4>
     <hr />
     <dl class="row">
@@ -33,4 +41,4 @@
 <div>
     @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
     <a asp-action="Index">Back to List</a>
-</div>
+</div>*@

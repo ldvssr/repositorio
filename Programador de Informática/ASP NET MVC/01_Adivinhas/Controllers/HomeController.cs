@@ -14,8 +14,6 @@ namespace _01_Adivinhas.Controllers
     {
         private AdivinhasRepository ar = new AdivinhasRepository();
 
-        private AnedotasRepository anr = new AnedotasRepository();
-
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
@@ -40,12 +38,14 @@ namespace _01_Adivinhas.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        public IActionResult Resposta(string adivinha)
+        public IActionResult Resposta(string _adivinha)
         {
-            if (adivinha == "0") return RedirectToAction("Index", "Home");
-            Adivinhas resposta = ar.ListById(Convert.ToInt32(adivinha));
+            if (_adivinha == "0") return RedirectToAction("Index", "Home");
+            Adivinhas resposta = ar.ListById(Convert.ToInt32(_adivinha));
             return View(resposta);
         }
+
+
 
     }
 }
