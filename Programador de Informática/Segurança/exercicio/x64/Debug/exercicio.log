@@ -1,0 +1,3 @@
+﻿  seguranca.c
+C:\repositorio\Programador de Informática\Segurança\exercicio\seguranca.c(223,18): warning C4013: 'getche' indefinido; assumindo extern retornando int
+  exercicio.vcxproj -> C:\repositorio\Programador de Informática\Segurança\exercicio\x64\Debug\exercicio.exe
