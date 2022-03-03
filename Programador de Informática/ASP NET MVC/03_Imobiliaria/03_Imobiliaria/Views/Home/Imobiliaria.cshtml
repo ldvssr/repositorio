@@ -1,0 +1,100 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>Receitas</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-danger">Criar nova</a>
+
+    <div class="input-group">
+
+        <select class="custom-select" id="filtro-select">
+
+            <option selected>selecione...</option>
+            @foreach (var it in ViewBag.tipos)
+            {
+                <option value="@it.Value">@it.Text</option>
+            }
+
+
+        </select>
+
+        <div class="input-group-append">
+
+            <button type="button" class="btn btn-primary" onclick="filtrar_receitas()">Filtrar</button>
+
+        </div>
+
+    </div>
+
+</p>
+<table class="table" id="mytable">
+    <thead>
+        <tr>
+            @*<th>
+                @Html.DisplayNameFor(model => model.id)
+            </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.ingredientes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.preparacao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nivel_dificuldade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tempo_preparacao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.imagem)
+            </th>
+            @*<th>
+                @Html.DisplayNameFor(model => model.tipo_receita)
+            </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.tipo_de_receita)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            @*<td>
+                @Html.DisplayFor(modelItem => item.id)
+            </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.ingredientes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.preparacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nivel_dificuldade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tempo_preparacao)
+            </td>
+            <td>
+                @*@Html.DisplayFor(modelItem => item.imagem)*@
+                @{string path = "~/Images/" + item.imagem;}
+                <img width="100" src="@Url.Content(path)" alt="Imagem"/>
+            </td>
+            @*<td>
+                @Html.DisplayFor(modelItem => item.tipo_receita)
+            </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.tipo_de_receita)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id=item.id }) |
+                @Html.ActionLink("Detalhes", "Details", new { id=item.id }) |
+                @Html.ActionLink("Eliminar", "Delete", new { id=item.id })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

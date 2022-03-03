@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Zl7KB6jz/ovZ1fY2BomsUo1+wkjZBWXHarSrcg+mHcg=",
+  "Hash": "iD4ts+85qMDNL0lyqDMBvn8ZLKMRa5XNVb7DMg1AZtA=",
   "Source": "02_receitas",
   "BasePath": "_content/02_receitas",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\repositorio\\Programador de Informática\\ASP NET MVC\\02_receitas\\wwwroot\\Images\\bifes.jpg",
+      "SourceId": "02_receitas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\repositorio\\Programador de Informática\\ASP NET MVC\\02_receitas\\wwwroot\\",
+      "BasePath": "_content/02_receitas",
+      "RelativePath": "Images/bifes.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\bifes.jpg"
     },
     {
       "Identity": "C:\\repositorio\\Programador de Informática\\ASP NET MVC\\02_receitas\\wwwroot\\Images\\receitas.jpg",

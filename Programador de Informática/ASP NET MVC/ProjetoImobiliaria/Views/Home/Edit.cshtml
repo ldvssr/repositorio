@@ -1,0 +1,73 @@
+﻿@model ProjetoImobiliaria.Models.Imoveis
+
+@{
+    ViewData["Title"] = "Editar";
+}
+
+<h1>Editar</h1>
+
+<h4>Imóveis</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @*<div class="form-group">
+                <label asp-for="id" class="control-label"></label>
+                <input asp-for="id" class="form-control" />
+                <span asp-validation-for="id" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <label asp-for="ingredientes" class="control-label"></label>
+                <input asp-for="ingredientes" class="form-control" />
+                <span asp-validation-for="ingredientes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="preparacao" class="control-label"></label>
+                <input asp-for="preparacao" class="form-control" />
+                <span asp-validation-for="preparacao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nivel_dificuldade" class="control-label"></label>
+                <input asp-for="nivel_dificuldade" class="form-control" />
+                <span asp-validation-for="nivel_dificuldade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tempo_preparacao" class="control-label"></label>
+                <input asp-for="tempo_preparacao" class="form-control" />
+                <span asp-validation-for="tempo_preparacao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="imagem" class="control-label"></label>
+                <input asp-for="imagem" class="form-control" />
+                <span asp-validation-for="imagem" class="text-danger"></span>
+            </div>
+            @*<div class="form-group">
+                <label asp-for="tipo_receita" class="control-label"></label>
+                <input asp-for="tipo_receita" class="form-control" />
+                <span asp-validation-for="tipo_receita" class="text-danger"></span>
+            </div>*@
+            @*<div class="form-group">
+                <label asp-for="tipo_de_receita" class="control-label"></label>
+                <input asp-for="tipo_de_receita" class="form-control" />
+                <span asp-validation-for="tipo_de_receita" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <label asp-for="tipo_receita"></label>
+                <select asp-for="tipo_receita" class="form-control" asp-items="@(new SelectList(ViewBag.Tipos, "Value", "Text"))">
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Gravar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Imoveis">Voltar à lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
