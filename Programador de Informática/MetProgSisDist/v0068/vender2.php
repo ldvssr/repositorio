@@ -2,8 +2,9 @@
 <html lang="pt-PT">
     <head>
         <meta charset="utf-8">
-        <title>Vinted</title>
+        <!-- <meta http-equiv="refresh" content="3;url=login2.php"> -->
         <link href="recursos/style/style.css" rel="stylesheet" type="text/css">
+        <title>Vinted</title>
         <script type="text/javascript">
             function atualiza()
             {

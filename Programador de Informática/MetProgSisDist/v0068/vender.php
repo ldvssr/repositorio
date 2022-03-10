@@ -48,8 +48,25 @@
             ?>
             </select>
         </form>
-        <form>
-            
+        <form action="vender2.php" id="f2" method="post" enctype="multipart/form/data">
+            <input type="hidden" size="20" name="id_user" value="<?php echo $_SESSION['id'];?>" required>
+            <input type="hidden" size="30" name="valor_cat" id="valor_cat" required>
+            <input type="hidden" size="30" name="valor_subcat" required>
+            Título: <input type="text" size="50" name="titulo" required><br><br>
+            Descrição:<br>
+                <textarea cols="80" rows="5" name="descricao"></textarea><br><br>
+            Estado: <select name="estado">
+                <option value="1"> 1 estrela </option>
+                <option value="2"> 2 estrelas </option>
+                <option value="3"> 3 estrelas </option>
+                <option value="4"> 4 estrelas </option>
+                <option value="5"> 5 estrelas </option>
+        </select><br><br>
+        Foto1:<input type="file" name="ficheiro1"><br><br>
+        Foto2:<input type="file" name="ficheiro2"><br><br>
+        Foto3:<input type="file" name="ficheiro3"><br><br>
+        <input type="submit" value="Vender">
+        <input type="reset" value="Limpar">
         </form>
     </body>
 </html>
