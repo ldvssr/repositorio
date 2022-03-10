@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oODqXtGQQIHW9AEEX1laiIMIG6ZnP/tE9dEcHUyLho4=",
+  "Hash": "/AK015A6n5BtJ8BoG1ShNb1tK9NZ5f2rJ9g79URZOIY=",
   "Source": "ProjetoImobiliaria",
   "BasePath": "_content/ProjetoImobiliaria",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\moradia.jpg"
+    },
+    {
+      "Identity": "C:\\repositorio\\Programador de Informática\\ASP NET MVC\\ProjetoImobiliaria\\wwwroot\\Images\\moradia2.jpg",
+      "SourceId": "ProjetoImobiliaria",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\repositorio\\Programador de Informática\\ASP NET MVC\\ProjetoImobiliaria\\wwwroot\\",
+      "BasePath": "_content/ProjetoImobiliaria",
+      "RelativePath": "Images/moradia2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\moradia2.jpg"
     },
     {
       "Identity": "C:\\repositorio\\Programador de Informática\\ASP NET MVC\\ProjetoImobiliaria\\wwwroot\\js\\site.js",
