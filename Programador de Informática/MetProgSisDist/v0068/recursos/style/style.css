@@ -1,0 +1,26 @@
+body{
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    background-image: url("../pics/estrela.png");
+
+}
+table{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    text-align: left;
+    font: size 14px;
+    color:skyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    background-color: navy;
+    color:rgb(206, 221, 221);
+    text-align: center;
+}
