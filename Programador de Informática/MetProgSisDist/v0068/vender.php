@@ -25,7 +25,7 @@
         <form action="vender.php" id="f1" method="post">
             Categoria: <select name="categoria" id="categoria" onchange="this.form.submit();">
             <?php
-            $sql = "SELECT * FROM t_categoria";
+            $sql = "SELECT * FROM t_categorias";
             $resultado = mysqli_query($ligacao, $sql) or die(mysqli_error($ligacao));
             while($linha = mysqli_fetch_assoc($resultado))
             {
