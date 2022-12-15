@@ -81,5 +81,3 @@ else:
     print ("ganhou! parabens!")
 
 print ("terminou")
-
-print ("hello world!")
