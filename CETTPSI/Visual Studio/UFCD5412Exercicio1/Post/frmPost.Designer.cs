@@ -87,7 +87,7 @@
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label3.Location = new System.Drawing.Point(252, 9);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(356, 23);
+            this.label3.Size = new System.Drawing.Size(676, 23);
             this.label3.TabIndex = 6;
             this.label3.Text = "Posts";
             // 
@@ -95,7 +95,7 @@
             // 
             this.btnGosto.Location = new System.Drawing.Point(252, 351);
             this.btnGosto.Name = "btnGosto";
-            this.btnGosto.Size = new System.Drawing.Size(174, 74);
+            this.btnGosto.Size = new System.Drawing.Size(335, 74);
             this.btnGosto.TabIndex = 7;
             this.btnGosto.Text = "Gosto";
             this.btnGosto.UseVisualStyleBackColor = true;
@@ -103,9 +103,9 @@
             // 
             // btnDesgosto
             // 
-            this.btnDesgosto.Location = new System.Drawing.Point(434, 351);
+            this.btnDesgosto.Location = new System.Drawing.Point(593, 351);
             this.btnDesgosto.Name = "btnDesgosto";
-            this.btnDesgosto.Size = new System.Drawing.Size(174, 74);
+            this.btnDesgosto.Size = new System.Drawing.Size(335, 74);
             this.btnDesgosto.TabIndex = 8;
             this.btnDesgosto.Text = "Desgosto";
             this.btnDesgosto.UseVisualStyleBackColor = true;
@@ -115,7 +115,7 @@
             // 
             this.lvPosts.Location = new System.Drawing.Point(252, 35);
             this.lvPosts.Name = "lvPosts";
-            this.lvPosts.Size = new System.Drawing.Size(356, 310);
+            this.lvPosts.Size = new System.Drawing.Size(676, 310);
             this.lvPosts.TabIndex = 9;
             this.lvPosts.UseCompatibleStateImageBehavior = false;
             // 
@@ -123,7 +123,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(620, 437);
+            this.ClientSize = new System.Drawing.Size(940, 437);
             this.Controls.Add(this.lvPosts);
             this.Controls.Add(this.btnDesgosto);
             this.Controls.Add(this.btnGosto);

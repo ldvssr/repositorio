@@ -30,11 +30,11 @@ namespace Post
             lvPosts.GridLines = true;    
             lvPosts.FullRowSelect = true; 
                                     
-            lvPosts.Columns.Add("Título", 60, HorizontalAlignment.Center);
-            lvPosts.Columns.Add("Descrição", 60, HorizontalAlignment.Center);
-            lvPosts.Columns.Add("Data/Hora", 60, HorizontalAlignment.Center);
-            lvPosts.Columns.Add("Gostos", 60, HorizontalAlignment.Center);
-            lvPosts.Columns.Add("Desgostos", 60, HorizontalAlignment.Center);
+            lvPosts.Columns.Add("Título", 110, HorizontalAlignment.Center);
+            lvPosts.Columns.Add("Descrição", 200, HorizontalAlignment.Center);
+            lvPosts.Columns.Add("Data/Hora", 180, HorizontalAlignment.Center);
+            lvPosts.Columns.Add("Gostos", 90, HorizontalAlignment.Center);
+            lvPosts.Columns.Add("Desgostos", 90, HorizontalAlignment.Center);
         }
 
         private void FillListView()
