@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\Visual Studio\\UFCD5412\\UFCD5412Exercicio1\\Veiculo\\Veiculo.csproj": {}
+    "C:\\repositorio\\CETTPSI\\Visual Studio\\UFCD5412Exercicio1\\Veiculo\\Veiculo.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\Visual Studio\\UFCD5412\\UFCD5412Exercicio1\\Veiculo\\Veiculo.csproj": {
+    "C:\\repositorio\\CETTPSI\\Visual Studio\\UFCD5412Exercicio1\\Veiculo\\Veiculo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\Visual Studio\\UFCD5412\\UFCD5412Exercicio1\\Veiculo\\Veiculo.csproj",
+        "projectUniqueName": "C:\\repositorio\\CETTPSI\\Visual Studio\\UFCD5412Exercicio1\\Veiculo\\Veiculo.csproj",
         "projectName": "Veiculo",
-        "projectPath": "D:\\Projetos\\Visual Studio\\UFCD5412\\UFCD5412Exercicio1\\Veiculo\\Veiculo.csproj",
+        "projectPath": "C:\\repositorio\\CETTPSI\\Visual Studio\\UFCD5412Exercicio1\\Veiculo\\Veiculo.csproj",
         "packagesPath": "C:\\Users\\LicinioDoRosario\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\Visual Studio\\UFCD5412\\UFCD5412Exercicio1\\Veiculo\\obj\\",
+        "outputPath": "C:\\repositorio\\CETTPSI\\Visual Studio\\UFCD5412Exercicio1\\Veiculo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

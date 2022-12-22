@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\Visual Studio\\UFCD5412\\UFCD5412Exercicio1\\CronometroForm\\CronometroForm.csproj": {}
+    "C:\\repositorio\\CETTPSI\\Visual Studio\\UFCD5412Exercicio1\\CronometroForm\\CronometroForm.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\Visual Studio\\UFCD5412\\UFCD5412Exercicio1\\CronometroForm\\CronometroForm.csproj": {
+    "C:\\repositorio\\CETTPSI\\Visual Studio\\UFCD5412Exercicio1\\CronometroForm\\CronometroForm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\Visual Studio\\UFCD5412\\UFCD5412Exercicio1\\CronometroForm\\CronometroForm.csproj",
+        "projectUniqueName": "C:\\repositorio\\CETTPSI\\Visual Studio\\UFCD5412Exercicio1\\CronometroForm\\CronometroForm.csproj",
         "projectName": "CronometroForm",
-        "projectPath": "D:\\Projetos\\Visual Studio\\UFCD5412\\UFCD5412Exercicio1\\CronometroForm\\CronometroForm.csproj",
+        "projectPath": "C:\\repositorio\\CETTPSI\\Visual Studio\\UFCD5412Exercicio1\\CronometroForm\\CronometroForm.csproj",
         "packagesPath": "C:\\Users\\LicinioDoRosario\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\Visual Studio\\UFCD5412\\UFCD5412Exercicio1\\CronometroForm\\obj\\",
+        "outputPath": "C:\\repositorio\\CETTPSI\\Visual Studio\\UFCD5412Exercicio1\\CronometroForm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
