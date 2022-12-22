@@ -1,0 +1,15 @@
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\bin\Debug\net6.0\UFCD5412Exercicio1.exe
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\bin\Debug\net6.0\UFCD5412Exercicio1.deps.json
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\bin\Debug\net6.0\UFCD5412Exercicio1.runtimeconfig.json
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\bin\Debug\net6.0\UFCD5412Exercicio1.dll
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\bin\Debug\net6.0\UFCD5412Exercicio1.pdb
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\obj\Debug\net6.0\UFCD5412Exercicio1.csproj.AssemblyReference.cache
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\obj\Debug\net6.0\UFCD5412Exercicio1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\obj\Debug\net6.0\UFCD5412Exercicio1.AssemblyInfoInputs.cache
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\obj\Debug\net6.0\UFCD5412Exercicio1.AssemblyInfo.cs
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\obj\Debug\net6.0\UFCD5412Exercicio1.csproj.CoreCompileInputs.cache
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\obj\Debug\net6.0\UFCD5412Exercicio1.dll
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\obj\Debug\net6.0\refint\UFCD5412Exercicio1.dll
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\obj\Debug\net6.0\UFCD5412Exercicio1.pdb
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\obj\Debug\net6.0\UFCD5412Exercicio1.genruntimeconfig.cache
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\obj\Debug\net6.0\ref\UFCD5412Exercicio1.dll

@@ -1,0 +1,17 @@
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\CronometroForm\bin\Debug\net6.0-windows\CronometroForm.exe
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\CronometroForm\bin\Debug\net6.0-windows\CronometroForm.deps.json
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\CronometroForm\bin\Debug\net6.0-windows\CronometroForm.runtimeconfig.json
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\CronometroForm\bin\Debug\net6.0-windows\CronometroForm.dll
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\CronometroForm\bin\Debug\net6.0-windows\CronometroForm.pdb
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\CronometroForm\obj\Debug\net6.0-windows\CronometroForm.csproj.AssemblyReference.cache
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\CronometroForm\obj\Debug\net6.0-windows\CronometroForm.frmCronometro.resources
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\CronometroForm\obj\Debug\net6.0-windows\CronometroForm.csproj.GenerateResource.cache
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\CronometroForm\obj\Debug\net6.0-windows\CronometroForm.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\CronometroForm\obj\Debug\net6.0-windows\CronometroForm.AssemblyInfoInputs.cache
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\CronometroForm\obj\Debug\net6.0-windows\CronometroForm.AssemblyInfo.cs
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\CronometroForm\obj\Debug\net6.0-windows\CronometroForm.csproj.CoreCompileInputs.cache
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\CronometroForm\obj\Debug\net6.0-windows\CronometroForm.dll
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\CronometroForm\obj\Debug\net6.0-windows\refint\CronometroForm.dll
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\CronometroForm\obj\Debug\net6.0-windows\CronometroForm.pdb
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\CronometroForm\obj\Debug\net6.0-windows\CronometroForm.genruntimeconfig.cache
+D:\Projetos\Visual Studio\UFCD5412\UFCD5412Exercicio1\CronometroForm\obj\Debug\net6.0-windows\ref\CronometroForm.dll

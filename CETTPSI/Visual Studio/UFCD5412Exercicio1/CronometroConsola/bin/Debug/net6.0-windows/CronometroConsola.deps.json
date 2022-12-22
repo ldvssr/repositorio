@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CronometroConsola/1.0.0": {
+        "dependencies": {
+          "CronometroForm": "1.0.0"
+        },
+        "runtime": {
+          "CronometroConsola.dll": {}
+        }
+      },
+      "CronometroForm/1.0.0": {
+        "runtime": {
+          "CronometroForm.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CronometroConsola/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CronometroForm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
