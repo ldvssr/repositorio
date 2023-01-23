@@ -1,0 +1,17 @@
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Veiculo\bin\Debug\net6.0-windows\Veiculo.exe
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Veiculo\bin\Debug\net6.0-windows\Veiculo.deps.json
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Veiculo\bin\Debug\net6.0-windows\Veiculo.runtimeconfig.json
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Veiculo\bin\Debug\net6.0-windows\Veiculo.dll
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Veiculo\bin\Debug\net6.0-windows\Veiculo.pdb
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Veiculo\obj\Debug\net6.0-windows\Veiculo.csproj.AssemblyReference.cache
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Veiculo\obj\Debug\net6.0-windows\Veiculo.frmVeiculo.resources
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Veiculo\obj\Debug\net6.0-windows\Veiculo.csproj.GenerateResource.cache
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Veiculo\obj\Debug\net6.0-windows\Veiculo.GeneratedMSBuildEditorConfig.editorconfig
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Veiculo\obj\Debug\net6.0-windows\Veiculo.AssemblyInfoInputs.cache
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Veiculo\obj\Debug\net6.0-windows\Veiculo.AssemblyInfo.cs
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Veiculo\obj\Debug\net6.0-windows\Veiculo.csproj.CoreCompileInputs.cache
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Veiculo\obj\Debug\net6.0-windows\Veiculo.dll
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Veiculo\obj\Debug\net6.0-windows\refint\Veiculo.dll
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Veiculo\obj\Debug\net6.0-windows\Veiculo.pdb
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Veiculo\obj\Debug\net6.0-windows\Veiculo.genruntimeconfig.cache
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Veiculo\obj\Debug\net6.0-windows\ref\Veiculo.dll

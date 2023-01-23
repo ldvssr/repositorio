@@ -1,0 +1,17 @@
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Balao\bin\Debug\net6.0-windows\Balao.exe
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Balao\bin\Debug\net6.0-windows\Balao.deps.json
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Balao\bin\Debug\net6.0-windows\Balao.runtimeconfig.json
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Balao\bin\Debug\net6.0-windows\Balao.dll
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Balao\bin\Debug\net6.0-windows\Balao.pdb
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Balao\obj\Debug\net6.0-windows\Balao.csproj.AssemblyReference.cache
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Balao\obj\Debug\net6.0-windows\Balao.frmBalao.resources
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Balao\obj\Debug\net6.0-windows\Balao.csproj.GenerateResource.cache
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Balao\obj\Debug\net6.0-windows\Balao.GeneratedMSBuildEditorConfig.editorconfig
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Balao\obj\Debug\net6.0-windows\Balao.AssemblyInfoInputs.cache
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Balao\obj\Debug\net6.0-windows\Balao.AssemblyInfo.cs
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Balao\obj\Debug\net6.0-windows\Balao.csproj.CoreCompileInputs.cache
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Balao\obj\Debug\net6.0-windows\Balao.dll
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Balao\obj\Debug\net6.0-windows\refint\Balao.dll
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Balao\obj\Debug\net6.0-windows\Balao.pdb
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Balao\obj\Debug\net6.0-windows\Balao.genruntimeconfig.cache
+C:\repositorio\CETTPSI\Visual Studio\UFCD5412Exercicio1\Balao\obj\Debug\net6.0-windows\ref\Balao.dll
